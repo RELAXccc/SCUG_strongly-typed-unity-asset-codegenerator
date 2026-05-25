@@ -1,0 +1,2840 @@
+{
+  "meta_mapping": {
+    "00465c195a90e5b4894ad849cd7109c7": {
+      "class_name": "SettingsButton",
+      "is_public": true
+    },
+    "00475959aba09a742891c0e067fbf81b": {
+      "class_name": "Prefabs.UIPrefabs.SocialMenu.CanvasSocial",
+      "is_public": true
+    },
+    "013f97cc780e1e5458e56d2fe9f20072": {
+      "class_name": "Prefabs.UIPrefabs.MainMap.CanvasMainMap",
+      "is_public": true
+    },
+    "017c9de005c3ca2438d7d0de3a248efa": {
+      "class_name": "Prefabs.BuildingPrefabs.Monastery.Level40",
+      "is_public": true
+    },
+    "017e05030157c98499d12152098a4f5f": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.UpgradeBuildingMenu.ImageUpgradeOptions",
+      "is_public": true
+    },
+    "01def94c7dde08045b6530e83589d31a": {
+      "class_name": "Prefabs.BuildingPrefabs.Furnace.Level30",
+      "is_public": true
+    },
+    "0201985de545f7f4ba162ebef82f89e5": {
+      "class_name": "Prefabs.UIPrefabs.QuestUI.ImageQuestItem",
+      "is_public": true
+    },
+    "021ba9ef96510eb4f885a3745f30497e": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Wheat1",
+      "is_public": true
+    },
+    "028571a7cf0ffe94d82430e3553542ab": {
+      "class_name": "Prefabs.UIPrefabs.TreeUI.CanvasUpgradeTree",
+      "is_public": true
+    },
+    "02c5aad0b980e2a43a8d9a19d6b798eb": {
+      "class_name": "Prefabs.BuildingPrefabs.Bakery.Level10",
+      "is_public": true
+    },
+    "0312b242851b68142a6bea09183950b6": {
+      "class_name": "Prefabs.BuildingPrefabs.Forge.Level25",
+      "is_public": true
+    },
+    "0336feb8f43ce2f4d851b0d1d15c624b": {
+      "class_name": "Prefabs.BuildingPrefabs.Mill.Level20",
+      "is_public": true
+    },
+    "03549ccaf2dc237468c20334b3027de1": {
+      "class_name": "Prefabs.UIPrefabs.OverlayCanvas.PopUpButtonMenu.ButtonPopUp",
+      "is_public": true
+    },
+    "03cfe326f5f35be4baa60faa198c4b7b": {
+      "class_name": "Prefabs.BuildingPrefabs.Quarry.Level10",
+      "is_public": true
+    },
+    "04dfa32714077f445a93c3745823d8bc": {
+      "class_name": "Prefabs.BuildingPrefabs.Tanner.Level5",
+      "is_public": true
+    },
+    "053ab9ca6a57d3c4c81cd27a7bdea38a": {
+      "class_name": "Prefabs.BuildingPrefabs.Woodcutter.Level40",
+      "is_public": true
+    },
+    "05c6f6ac95f26b9408af640d47b75deb": {
+      "class_name": "Prefabs.Loading.LoadingManager",
+      "is_public": true
+    },
+    "0617174075a88cb4fa03420f7d14a4c2": {
+      "class_name": "Prefabs.BuildingPrefabs.Forge.Level25",
+      "is_public": true
+    },
+    "0625319fb574d0c43b16f6768707e790": {
+      "class_name": "Prefabs.UIPrefabs.CastleUI.EnemyUI.CanvasEnemySearch",
+      "is_public": true
+    },
+    "06aecf68391fcd6448b5b58c95c1ff7b": {
+      "class_name": "Prefabs.BuildingPrefabs.Fisher.Level40",
+      "is_public": true
+    },
+    "0740b91ebb92d4548a93e329977b84dd": {
+      "class_name": "Prefabs.BuildingPrefabs.Mill.Level10",
+      "is_public": true
+    },
+    "07828c99753d1a24faad3fe864c09770": {
+      "class_name": "Prefabs.BuildingPrefabs.Sawmill.Level5",
+      "is_public": true
+    },
+    "07c75237c64f5554daf36389decf0944": {
+      "class_name": "Prefabs.UIPrefabs.OverlayCanvas.ChatPopUp.ChatMessage",
+      "is_public": true
+    },
+    "07d9292e185fdf440a6749465414c75b": {
+      "class_name": "GridViewController",
+      "is_public": true
+    },
+    "08001c4c423e7434aabdb3aff0d2cbc1": {
+      "class_name": "Prefabs.BuildingPrefabs.Pigstall.Level20",
+      "is_public": true
+    },
+    "082c2ee52c85cb4479741c0c1d04ecbe": {
+      "class_name": "Prefabs.UIPrefabs.SocialMenu.PlayerPreviewSearch",
+      "is_public": true
+    },
+    "087ffdc6ee733594faddd0c99e7465e6": {
+      "class_name": "Prefabs.EnvironmentPrefabs.Tree",
+      "is_public": true
+    },
+    "08f9f951ca77fe74184e4ebc93fb2ada": {
+      "class_name": "Prefabs.BuildingPrefabs.Mine.Level40",
+      "is_public": true
+    },
+    "092b57b1531de6a449d22798cf4e7230": {
+      "class_name": "Prefabs.BuildingPrefabs.Pottery.Level60",
+      "is_public": true
+    },
+    "09858ec59de81de45851ec9ee4358c5d": {
+      "class_name": "Prefabs.BuildingPrefabs.Forge.Level5",
+      "is_public": true
+    },
+    "0a0c87427925f3d45982e1308771c7a3": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.ImageInfoBoxUpgradeData",
+      "is_public": true
+    },
+    "0c486786f812a3343afebed4416b6604": {
+      "class_name": "Prefabs.BuildingPrefabs.BuildersGuild.Level20",
+      "is_public": true
+    },
+    "0d22257e265c775488a047cdc8752f8a": {
+      "class_name": "TimeCounter",
+      "is_public": true
+    },
+    "0d4fbe3e87d5fc14c88980a5284af0eb": {
+      "class_name": "DynamicGridSize",
+      "is_public": true
+    },
+    "0dd39fd817700de48b700788300e0f5b": {
+      "class_name": "Prefabs.BuildingPrefabs.Butcher.Level20",
+      "is_public": true
+    },
+    "0f49406946914ef4f9ac197fe493f881": {
+      "class_name": "Prefabs.UIPrefabs.MarketMenu.Buy.ImageContainerBuy",
+      "is_public": true
+    },
+    "0f6c1e8c350463e42bebd7e829381451": {
+      "class_name": "Prefabs.UIPrefabs.SocialMenu.PlayerPreviewFriendRequest",
+      "is_public": true
+    },
+    "0fb760ab5dd14134e99171c6f75b4b43": {
+      "class_name": "Prefabs.BuildingPrefabs.Barracks.Level5",
+      "is_public": true
+    },
+    "0ffefe15df763984080ccff441711931": {
+      "class_name": "Prefabs.UIPrefabs.CombatUI.CanvasCombatResult",
+      "is_public": true
+    },
+    "11b39307a10409b4e86ce9c10dd38e42": {
+      "class_name": "BuildingArsenalManager",
+      "is_public": false
+    },
+    "13c20bf49fb162b49b734bf490668159": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Wheat1",
+      "is_public": true
+    },
+    "14003817af0ea8e43ab92b2dfa847d8b": {
+      "class_name": "Prefabs.UIPrefabs.OverlayCanvas.PopUpButtonMenu.ButtonPopUp",
+      "is_public": true
+    },
+    "1456baf0ae95f20409b3cc49b25f2dc0": {
+      "class_name": "Prefabs.UIPrefabs.SocialMenu.CanvasSocial",
+      "is_public": true
+    },
+    "145d2f99c1e68c64eb146c559c7612ee": {
+      "class_name": "Tutorial",
+      "is_public": true
+    },
+    "155a4a4f45448204ea8ac34e83b411d0": {
+      "class_name": "TESTButtonToProfPic",
+      "is_public": true
+    },
+    "1584e4a22c6f62c41b38b4870a8f04d9": {
+      "class_name": "Prefabs.BuildingPrefabs.Bowmaker.Level25",
+      "is_public": true
+    },
+    "1650f42e73d13f84f9481d2e6393ff21": {
+      "class_name": "Prefabs.UIPrefabs.TutorialUI.ImagePopUpTutorial",
+      "is_public": true
+    },
+    "16d85005be219ed4b81dba95bb77cb03": {
+      "class_name": "Prefabs.BuildingPrefabs.Barracks.Level5",
+      "is_public": true
+    },
+    "1713d7aff28d40d489725b6878548f43": {
+      "class_name": "Prefabs.BuildingPrefabs.Mill.Level2",
+      "is_public": true
+    },
+    "190cebc3c4f8c674c874b99bed22fd63": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.Level30",
+      "is_public": true
+    },
+    "191c6c593ce75d44f8953793c1bd1aa7": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.Level30",
+      "is_public": true
+    },
+    "1948c8e10c3439a40b8609ef87b78269": {
+      "class_name": "Prefabs.BuildingPrefabs.Woodcutter.Level10",
+      "is_public": true
+    },
+    "1967dcb1021636c419ae790770244f88": {
+      "class_name": "Prefabs.BuildingPrefabs.Tanner.Level25",
+      "is_public": true
+    },
+    "1a056f5d6d2b25f408f012e0add0887e": {
+      "class_name": "Prefabs.BuildingPrefabs.Bowmaker.Level40",
+      "is_public": true
+    },
+    "1a47c18afce7c4e4c98e84495e357b4c": {
+      "class_name": "Prefabs.DefensePrefabs.MudPit",
+      "is_public": true
+    },
+    "1b2fdc4081941ea4a8ea47cd81349175": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Pear1",
+      "is_public": true
+    },
+    "1bbf75aa403aa6344a086a59738fa383": {
+      "class_name": "Prefabs.BuildingPrefabs.Bakery.Level25",
+      "is_public": true
+    },
+    "1c5db23c614974b4c9e6a50513759576": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Grape1",
+      "is_public": true
+    },
+    "1c7af56b191eed5449484e58b10613cd": {
+      "class_name": "Prefabs.BuildingPrefabs.Barracks.Level30",
+      "is_public": true
+    },
+    "1c86998dfc7b01941acba592eff07727": {
+      "class_name": "MarketBuy_Canvas_Script",
+      "is_public": true
+    },
+    "1d2fb6b4ecacfc54a9d918603a75aa7d": {
+      "class_name": "Prefabs.BuildingPrefabs.Butcher.Level2",
+      "is_public": true
+    },
+    "1d35111fd7dff4242a6cd931a4d11085": {
+      "class_name": "Prefabs.Loading.CameraRig",
+      "is_public": true
+    },
+    "1da698a2fd534564f8b5675cbaacb895": {
+      "class_name": "Prefabs.UIPrefabs.SocialMenu.PlayerPreviewFriendRequest",
+      "is_public": true
+    },
+    "1dbbabec80f68564c9de4f65b6bbfc16": {
+      "class_name": "Prefabs.BuildingPrefabs.Bakery.Level2",
+      "is_public": true
+    },
+    "1f79d106de4960e4aaadaf229e96d857": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.Level5",
+      "is_public": true
+    },
+    "1f945ffe163c00c42888059ad8520cfb": {
+      "class_name": "Prefabs.BuildingPrefabs.Tailor.Level30",
+      "is_public": true
+    },
+    "224f428a77585834c86f3ca628c28bad": {
+      "class_name": "Prefabs.UIPrefabs.TreeUI.Research.ResearchNodeImagePrefab",
+      "is_public": true
+    },
+    "22b1ed82e6076ec4caabffaf50c78b7e": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.UpgradeBuildingMenu.ContainerUpgradeArsenal",
+      "is_public": true
+    },
+    "22e02f74e505d3a4f980d2086c8cd092": {
+      "class_name": "Prefabs.BuildingPrefabs.Church.Level70",
+      "is_public": true
+    },
+    "23433b41d5b34c346b5ed70f52d534cb": {
+      "class_name": "Prefabs.UnitPrefabs.Spearman",
+      "is_public": true
+    },
+    "237166a4347de4948bb114e998552d9d": {
+      "class_name": "Prefabs.BuildingPrefabs.Tailor.Level5",
+      "is_public": true
+    },
+    "23a55def61ebd4a4292e40b6792be7a6": {
+      "class_name": "Prefabs.UIPrefabs.MainMap.SliderLoading",
+      "is_public": true
+    },
+    "23f1e57282df6f4498e84efabf4ba41c": {
+      "class_name": "Prefabs.UnitPrefabs.Archer",
+      "is_public": true
+    },
+    "26f62ebc23e248744bd1bac35bf72d58": {
+      "class_name": "Prefabs.BuildingPrefabs.Sawmill.Level1",
+      "is_public": true
+    },
+    "2839f135535fd8940801348ad3f2cd4d": {
+      "class_name": "Prefabs.BuildingPrefabs.Beekeeper.Level20",
+      "is_public": true
+    },
+    "28705d26d24ee8949b2c641f2b8befb5": {
+      "class_name": "TokenManager",
+      "is_public": false
+    },
+    "28ffd568b1c3f0b44a56125b512599ed": {
+      "class_name": "Prefabs.NaturePrefabs.Animals.Cow.Prefab",
+      "is_public": true
+    },
+    "28fffd98f2662014b84f799e9dec1258": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Grape2",
+      "is_public": true
+    },
+    "2a1d442231e520746ba13a4d82ac7a43": {
+      "class_name": "MusicTransition",
+      "is_public": true
+    },
+    "2a8a74cdd00c8d2498159adec02f6896": {
+      "class_name": "Prefabs.Loading.TransitionClouds",
+      "is_public": true
+    },
+    "2a944af1c5b587540b4bc7420bacce02": {
+      "class_name": "Prefabs.BuildingPrefabs.Sheepstall.Level5",
+      "is_public": true
+    },
+    "2aced54bb40152740839176a2108a981": {
+      "class_name": "UX.lib.LevelIcon",
+      "is_public": false
+    },
+    "2afffad21649fcb4e8085fbd8fd24993": {
+      "class_name": "Prefabs.UIPrefabs.OverlayCanvas.ChatPopUp.ImageChatPopup",
+      "is_public": true
+    },
+    "2b0680c848de1254baec919a313cdabf": {
+      "class_name": "Authentication",
+      "is_public": true
+    },
+    "2b3758d929629f74487efe7536881bb4": {
+      "class_name": "Prefabs.UIPrefabs.SettingsUI.ImagePopUpRegister",
+      "is_public": true
+    },
+    "2c137319d4e656946a76799b0809e61d": {
+      "class_name": "FriendRequestUI",
+      "is_public": true
+    },
+    "2c5fd0e218679494abf7b04c19ca34d9": {
+      "class_name": "Prefabs.UIPrefabs.TreeUI.CanvasUpgradeTree",
+      "is_public": true
+    },
+    "2cfda26301153694db04cc7e0b6ad39f": {
+      "class_name": "Prefabs.UIPrefabs.QuestUI.ImageQuest",
+      "is_public": true
+    },
+    "2e736f1196ae66a41957f6681169d673": {
+      "class_name": "Prefabs.BuildingPrefabs.Fisher.Level1",
+      "is_public": true
+    },
+    "2f80ac4d34f63124e968aae9fece7e73": {
+      "class_name": "Prefabs.BuildingPrefabs.Monastery.Level50",
+      "is_public": true
+    },
+    "2fb88ebb7171b4d4a843cf39cef93031": {
+      "class_name": "Prefabs.BuildingPrefabs.Quarry.Level20",
+      "is_public": true
+    },
+    "300e30f6298c00c449b2269c0108cfff": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Hop3",
+      "is_public": true
+    },
+    "301515a6419bbff42a9d31b220687363": {
+      "class_name": "Prefabs.BuildingPrefabs.Furnace.Level15",
+      "is_public": true
+    },
+    "3074b1d48a2a0e64ebbc977c21cff21d": {
+      "class_name": "Prefabs.BuildingPrefabs.Forge.Level40",
+      "is_public": true
+    },
+    "31ace18847374d84ab972f2d455492f6": {
+      "class_name": "Prefabs.UnitPrefabs.Pawn",
+      "is_public": true
+    },
+    "31e0c5228bcecd14eb98615dc940a81d": {
+      "class_name": "BuildingService",
+      "is_public": false
+    },
+    "327e4738e7e0a3b4999b6697fe46c3da": {
+      "class_name": "CombatService",
+      "is_public": false
+    },
+    "329131fd12d3aa440ab7540cf7787328": {
+      "class_name": "Prefabs.BuildingPrefabs.Chickenstall.Level20",
+      "is_public": true
+    },
+    "333bbb8a2cd71474990b3dc519dad235": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.ProductionBuildings.Production.CanvasProductionBuildingProductions",
+      "is_public": true
+    },
+    "33c6c97d44c8c934782aa9ea3621dbae": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.ButtonPrefabItemRound",
+      "is_public": true
+    },
+    "33e039c5fad2a29458146772d5a73f12": {
+      "class_name": "Prefabs.UIPrefabs.TreeUI.Research.ResearchNodeImagePrefab",
+      "is_public": true
+    },
+    "34f1c7a5debe58c4f95f426c9fe8de2f": {
+      "class_name": "Prefabs.BuildingPrefabs.Monastery.Level25",
+      "is_public": true
+    },
+    "350ce18877b8a0341afcf8917fb49a1d": {
+      "class_name": "Prefabs.BuildingPrefabs.Bowmaker.Level5",
+      "is_public": true
+    },
+    "35c0334adc803ee418a8600333b439ae": {
+      "class_name": "Prefabs.UIPrefabs.CastleUI.EnemyUI.EntryEnemyPlayer",
+      "is_public": true
+    },
+    "366e8f4073277994d9a5e26e42afa8c5": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Grape1",
+      "is_public": true
+    },
+    "36dd35bf5ee213a4da9dd3dd73adf414": {
+      "class_name": "Castle_Object_Script",
+      "is_public": true
+    },
+    "37016ba5adfcf4b4e853579696ddafe8": {
+      "class_name": "Prefabs.BuildingPrefabs.ResourceContainerBox",
+      "is_public": true
+    },
+    "3785dac679891ad4faf569af9cfc380b": {
+      "class_name": "CanvasOverlay",
+      "is_public": true
+    },
+    "37cac2a2effe97443b3d150676b405c6": {
+      "class_name": "Prefabs.EnvironmentPrefabs.Wall_edge",
+      "is_public": true
+    },
+    "37f6e16bba11ca342b1f62a2e14cb911": {
+      "class_name": "Prefabs.BuildingPrefabs.Dairy.Level60",
+      "is_public": true
+    },
+    "3898c65b59a6a5a419c5b39a59891a40": {
+      "class_name": "Prefabs.BuildingPrefabs.Church.Level70",
+      "is_public": true
+    },
+    "38c3625a84aa9674ba4ecdc4367c41aa": {
+      "class_name": "Stall_Canvas_Script",
+      "is_public": true
+    },
+    "38e7259a908555947aed6c4325c71b80": {
+      "class_name": "Prefabs.BuildingPrefabs.Dairy.Level45",
+      "is_public": true
+    },
+    "394e2252716f60f4ea8b73a7c72b6c6c": {
+      "class_name": "Prefabs.UIPrefabs.MarketMenu.Sell.PrefabSellItemSelect",
+      "is_public": true
+    },
+    "396afcf6d77b8c44792f4bd86cc01d1a": {
+      "class_name": "Prefabs.BuildingPrefabs.Tailor.Level5",
+      "is_public": true
+    },
+    "3afddb7341e299642b39d733b018bfee": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.StallBuildings.ImagePopupMenuBuyAnimal",
+      "is_public": true
+    },
+    "3b08a77055821d14da9edeb94deba81c": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Wheat3",
+      "is_public": true
+    },
+    "3b4ebede9f7e665439f28f999277e1ab": {
+      "class_name": "Logging",
+      "is_public": true
+    },
+    "3b88ba374a1d6ac4286d2f53970713dc": {
+      "class_name": "Prefabs.UIPrefabs.TutorialUI.CanvasTutorial",
+      "is_public": true
+    },
+    "3bb7ec718c82a2e44913599c5f5399fa": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Hop3",
+      "is_public": true
+    },
+    "3bf809ab7e67dd9438204574df0999e0": {
+      "class_name": "Conn",
+      "is_public": true
+    },
+    "3c5b298aa07d25c479eec3e8d74bafbf": {
+      "class_name": "Prefabs.BuildingPrefabs.Dairy.Level45",
+      "is_public": true
+    },
+    "3ce2dc83a4b17554ea0de4687f11d569": {
+      "class_name": "Prefabs.BuildingPrefabs.Claypit.Level1",
+      "is_public": true
+    },
+    "3d46437723f3c6249a72ffe589ff7bc0": {
+      "class_name": "Prefabs.UIPrefabs.OverlayCanvas.ChatPopUp.ImageChatPopup",
+      "is_public": true
+    },
+    "3d4e12e778c829242b9ca44da2c7cda2": {
+      "class_name": "Prefabs.NaturePrefabs.Animals.Sheep.Prefab",
+      "is_public": true
+    },
+    "3d75bc06fa84c99489dbdb5dc8e89ce2": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Apple3",
+      "is_public": true
+    },
+    "3e3095ce328557d459779bc8dc9a2b88": {
+      "class_name": "Prefabs.UIPrefabs.CastleUI.CanvasCastle",
+      "is_public": true
+    },
+    "3e6af297cafda8e47b1a6527c0b3ea95": {
+      "class_name": "Prefabs.DefensePrefabs.Moat",
+      "is_public": true
+    },
+    "3f38133d403b71c41b0ff5649887b9cf": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Apple1",
+      "is_public": true
+    },
+    "3fe28b0792846a84d94a296489056087": {
+      "class_name": "CoroutineWithData",
+      "is_public": true
+    },
+    "4001e8e7a4f119c469cc73a31121c5fd": {
+      "class_name": "Prefabs.UIPrefabs.SocialMenu.ButtonFriendEntry",
+      "is_public": true
+    },
+    "4234450298e06434b940a269d53aaa37": {
+      "class_name": "Vars",
+      "is_public": false
+    },
+    "42bb336076009f948a228f6ce99e6c08": {
+      "class_name": "Prefabs.BuildingPrefabs.PopUpCollectItem",
+      "is_public": true
+    },
+    "435c876a5c13a8a4d9ac0330748dabb0": {
+      "class_name": "MainMapUI",
+      "is_public": false
+    },
+    "441cf590b01a2c8438ebd1bf9b5890e1": {
+      "class_name": "Prefabs.BuildingPrefabs.Fisher.Level20",
+      "is_public": true
+    },
+    "450f441d8a17e9047b0b6c9cd39c1c36": {
+      "class_name": "Unit",
+      "is_public": true
+    },
+    "455e606ac36667e438c15def11f2dbcc": {
+      "class_name": "LoadingWipeAnimation",
+      "is_public": true
+    },
+    "456892ceaa4494b44a4132b5f5b4c061": {
+      "class_name": "Prefabs.BuildingPrefabs.Stonemason.Level20",
+      "is_public": true
+    },
+    "4655fa7af66a8d2428106e3ab63a796f": {
+      "class_name": "Market_Object_Script",
+      "is_public": true
+    },
+    "467ca32486aa8f043810082faa63b5e7": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.ProductionBuildings.ProductionResources.CanvasProductionBuildingsResources",
+      "is_public": true
+    },
+    "46f1172133048fb4c89ba54a754746db": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.Level10",
+      "is_public": true
+    },
+    "479678314de2688469f6ceefb41da45c": {
+      "class_name": "UX.lib.UILineRenderer",
+      "is_public": true
+    },
+    "47a76b998b0da7d4693e939b0f58f599": {
+      "class_name": "Prefabs.BuildingPrefabs.Mine.Level10",
+      "is_public": true
+    },
+    "48734ab1110880a4aa6716eda0d268b7": {
+      "class_name": "Prefabs.UIPrefabs.TreeUI.CanvasTree",
+      "is_public": true
+    },
+    "48890102a0f0d38438de8d200e8be170": {
+      "class_name": "Prefabs.BuildingPrefabs.Barracks.Level45",
+      "is_public": true
+    },
+    "48b027c8d0b56f04aa6e0a9a22d9fa50": {
+      "class_name": "Prefabs.BuildingPrefabs.Bakery.Level5",
+      "is_public": true
+    },
+    "48e43996de3a94e4ea108b1f8eb6a3e6": {
+      "class_name": "Attack_Canvas_Script",
+      "is_public": true
+    },
+    "48ed4503b3fd21147b0bce77e4b1327f": {
+      "class_name": "Prefabs.BuildingPrefabs.Mill.Level10",
+      "is_public": true
+    },
+    "49929ab4f7ed6734088f49440701318f": {
+      "class_name": "QuestItem",
+      "is_public": true
+    },
+    "499ee311cedebb74fa4b3f4d536d00c7": {
+      "class_name": "Prefabs.UIPrefabs.CastleUI.EnemyUI.CanvasEnemySearch",
+      "is_public": true
+    },
+    "49ef583bb23bc3140a283c7250ffb1da": {
+      "class_name": "Prefabs.BuildingPrefabs.Barracks.Level65",
+      "is_public": true
+    },
+    "49fa4eb18d40eb64b9f4792b7c2578db": {
+      "class_name": "LoadingManager",
+      "is_public": true
+    },
+    "4a22b68d211ffae48a0c7433f3283249": {
+      "class_name": "Prefabs.UIPrefabs.DefenseMenu.CanvasDefenseBuildings",
+      "is_public": true
+    },
+    "4a3a008afc032804899b6c9c57984834": {
+      "class_name": "Prefabs.UIPrefabs.SettingsUI.ImagePopUpRegister",
+      "is_public": true
+    },
+    "4a74b3e06e6d93d41b9aa6ba73ec00c9": {
+      "class_name": "Prefabs.UIPrefabs.MarketMenu.Buy.ButtonItemToBuy",
+      "is_public": true
+    },
+    "4a81edbdf10afb647a840385c00d86e9": {
+      "class_name": "Prefabs.BuildingPrefabs.Cowstall.Level5",
+      "is_public": true
+    },
+    "4ad6bd3a0714ccd4a962052938d9a6d1": {
+      "class_name": "SwitchUI",
+      "is_public": true
+    },
+    "4afa7ac9002a4f04fa1d6c1983971c5a": {
+      "class_name": "EnemySearch_Canvas_Script",
+      "is_public": true
+    },
+    "4b66e32ca5740bf40b26eda779ee3681": {
+      "class_name": "Prefabs.UnitPrefabs.Slave",
+      "is_public": true
+    },
+    "4b782e53b19092e4baeda76aa99c185b": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.ProductionBuildings.ProductionResources.CanvasProductionBuildingsResources",
+      "is_public": true
+    },
+    "4b7f40687f5a9a447a2ccd25151779f0": {
+      "class_name": "Prefabs.UIPrefabs.CastleUI.ReplayUI.CanvasCombatLog",
+      "is_public": true
+    },
+    "4c205251dcffb4f49be3bb67b7d738e9": {
+      "class_name": "Prefabs.BuildingPrefabs.Forge.Level15",
+      "is_public": true
+    },
+    "4c60b9f28380a6744a062cd0d30aa554": {
+      "class_name": "Prefabs.UIPrefabs.NewGameUI.CanvasNewGame",
+      "is_public": true
+    },
+    "4d0eb627f135a82419b9150d31251744": {
+      "class_name": "Prefabs.BuildingPrefabs.Stonemason.Level3",
+      "is_public": true
+    },
+    "4d57de2557987f34ca4a899c65b63cf4": {
+      "class_name": "QuestPopup",
+      "is_public": true
+    },
+    "4d5f2e51d561db94eb27d070e97df3c2": {
+      "class_name": "Prefabs.BuildingPrefabs.Forge.Level40",
+      "is_public": true
+    },
+    "4dc864c39f6f8624399686da168d4370": {
+      "class_name": "CombatLog_Canvas_Script",
+      "is_public": true
+    },
+    "4eced8e18165c2e498218858ee741b36": {
+      "class_name": "TranslationCache",
+      "is_public": false
+    },
+    "4ed9e31b1c29df44a933d111e588b704": {
+      "class_name": "Prefabs.BuildingPrefabs.Chickenstall.Level10",
+      "is_public": true
+    },
+    "51244f452c44fcb478512e5caf0fa4cf": {
+      "class_name": "UnitData",
+      "is_public": true
+    },
+    "5155dc6e354263644af84df839b671e2": {
+      "class_name": "Prefabs.BuildingPrefabs.Quarry.Level20",
+      "is_public": true
+    },
+    "51b5b969b2b5cab4185d7eebef285e51": {
+      "class_name": "Prefabs.DefensePrefabs.Trunktrap",
+      "is_public": true
+    },
+    "5495efd00652b4b4fa0c4780f2c0ff77": {
+      "class_name": "Prefabs.BuildingPrefabs.Dairy.Level30",
+      "is_public": true
+    },
+    "54e5405309e2fa8469c140c07da9ee71": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Pear3",
+      "is_public": true
+    },
+    "54fdee9e63ee2ac4491994111efded34": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.Headline",
+      "is_public": true
+    },
+    "55782f266a4856d44a3f7849dbcc8e91": {
+      "class_name": "Prefabs.NaturePrefabs.Animals.Cow.Prefab",
+      "is_public": true
+    },
+    "5579780f80702b440ac9818d8557c9ff": {
+      "class_name": "BulletPhysics",
+      "is_public": false
+    },
+    "561ed18ae59c4a347bdfac42afc6c44b": {
+      "class_name": "SwitchLVL",
+      "is_public": true
+    },
+    "567695741ad85574baeef192b07d6872": {
+      "class_name": "Prefabs.UIPrefabs.StockMenu.StockItemContainer",
+      "is_public": true
+    },
+    "56d7d6ec00b5c694395fbd29085d3360": {
+      "class_name": "Prefabs.BuildingPrefabs.Mine.Level20",
+      "is_public": true
+    },
+    "56f2b1d8a5e44a94f81a8c4c490c8059": {
+      "class_name": "Prefabs.UIPrefabs.MarketMenu.Quests.ImageContentContainerQuestResources",
+      "is_public": true
+    },
+    "5742fa1fefcc4364bbe90f46ac749fe5": {
+      "class_name": "GameDataService",
+      "is_public": false
+    },
+    "5765db7ac47c7584e950f86ae9f7105a": {
+      "class_name": "Item",
+      "is_public": true
+    },
+    "57b8646cb28976b4a8a2e527fb727dcf": {
+      "class_name": "Prefabs.Loading.LoadingManager",
+      "is_public": true
+    },
+    "57d25a380744f3f47916607bdd744fcf": {
+      "class_name": "Prefabs.UIPrefabs.StockMenu.StockItemImagePrefab",
+      "is_public": true
+    },
+    "57e5fbf764a19e046aa0f67fafac65b8": {
+      "class_name": "Prefabs.BuildingPrefabs.Claypit.Level1",
+      "is_public": true
+    },
+    "58fafe78214f47b47a1d7d5890746520": {
+      "class_name": "Prefabs.UIPrefabs.MainMap.CanvasPergamentFade",
+      "is_public": true
+    },
+    "597086d2f6c408943a5b561f11f58a92": {
+      "class_name": "Prefabs.BuildingPrefabs.Bakery.Level10",
+      "is_public": true
+    },
+    "5ad0b3e9996ad2d4197f4cecfb9609a3": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.UpgradeDataLine",
+      "is_public": true
+    },
+    "5af3d945ed6b1f24d86524dbfcdf0883": {
+      "class_name": "Prefabs.BuildingPrefabs.Butcher.Level5",
+      "is_public": true
+    },
+    "5b4e1a41446c30a42a98bfb65fa1d842": {
+      "class_name": "Prefabs.UIPrefabs.MarketMenu.Buy.ImageItemBuyContainer",
+      "is_public": true
+    },
+    "5c049550e42d2ef458717e13a7a79544": {
+      "class_name": "HealthBar",
+      "is_public": true
+    },
+    "5d2c49f3079d44f4d8c5c7c1d7fde2a3": {
+      "class_name": "DefensePlacementController",
+      "is_public": true
+    },
+    "5d7d414154d11c6479cbe5bd312360df": {
+      "class_name": "Prefabs.AttackPrefabs.ButtonUnit",
+      "is_public": true
+    },
+    "5e6bff344bad34d4fb6480327ff2c23c": {
+      "class_name": "Prefabs.BuildingPrefabs.Fisher.Level60",
+      "is_public": true
+    },
+    "5f646103375a4234eb071e11c2a71995": {
+      "class_name": "Prefabs.UnitPrefabs.Arrow",
+      "is_public": true
+    },
+    "5f74fe77a7baa074491dd063b1213d4e": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.UpgradeBuildingMenu.ImageUpgradeOptions",
+      "is_public": true
+    },
+    "5f76ad95e37d0b44f9a324b890ff45b5": {
+      "class_name": "Prefabs.BuildingPrefabs.Claypit.Level60",
+      "is_public": true
+    },
+    "5fbe0a0dcb8ed354fa11770265fe5a47": {
+      "class_name": "Prefabs.BuildingPrefabs.Dairy.Level30",
+      "is_public": true
+    },
+    "61243396f0fe7394ba50f734918a189a": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.Level10",
+      "is_public": true
+    },
+    "61513f85e0dc71d4eace5ceca45b8827": {
+      "class_name": "Prefabs.UIPrefabs.SettingsUI.ImagePopUpLogin",
+      "is_public": true
+    },
+    "6152e226ce6510440a148dd9ae230351": {
+      "class_name": "Prefabs.UIPrefabs.SocialMenu.CanvasCreateProfilePicture",
+      "is_public": true
+    },
+    "616554e562a2d7c498abfd5feb7be4a0": {
+      "class_name": "Prefabs.UIPrefabs.SettingsUI.ImagePopUpLogin",
+      "is_public": true
+    },
+    "61d1b40a8887c92478153f5871d2318a": {
+      "class_name": "Prefabs.BuildingPrefabs.Butcher.Level2",
+      "is_public": true
+    },
+    "61e52754e94c0b344879ccfea8c74264": {
+      "class_name": "Defense_Object_Script",
+      "is_public": true
+    },
+    "62cc647dd8ab27740aee6b52ea217470": {
+      "class_name": "Prefabs.BuildingPrefabs.Barracks.Level15",
+      "is_public": true
+    },
+    "6358dc5dfba40b84e8e6db9b5da7c662": {
+      "class_name": "Prefabs.NaturePrefabs.Animals.Sheep.Prefab",
+      "is_public": true
+    },
+    "63ebdbcf142ce56418f9e096c2004786": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Hop1",
+      "is_public": true
+    },
+    "640dcd1be257f3641bfa401830a1b939": {
+      "class_name": "Prefabs.DefensePrefabs.Swordsmanoutpost",
+      "is_public": true
+    },
+    "64507483b3fb5594194a28c3e89a9d7b": {
+      "class_name": "Prefabs.UnitPrefabs.ButtonUnits",
+      "is_public": true
+    },
+    "65a591a5d301bf245a14eceafc6b207b": {
+      "class_name": "SettingsUI",
+      "is_public": true
+    },
+    "6690b68f06dc8254fb9a69cfc1815e34": {
+      "class_name": "Prefabs.BuildingPrefabs.Stonemason.Level3",
+      "is_public": true
+    },
+    "66eee852cbf24bb44ac3db3f59599399": {
+      "class_name": "Prefabs.UIPrefabs.ConstructionMenu.CanvasBuild",
+      "is_public": true
+    },
+    "687e6c620bc91e549b73cdddfe74c537": {
+      "class_name": "Prefabs.UIPrefabs.MainMap.CanvasPergamentFade",
+      "is_public": true
+    },
+    "68c870f8f4f8c3d4994f397c4b37fed4": {
+      "class_name": "Prefabs.BuildingPrefabs.Fisher.Level20",
+      "is_public": true
+    },
+    "68f2359cca7d6dd46b7437bc886efcfe": {
+      "class_name": "Prefabs.BuildingPrefabs.Sawmill.Level5",
+      "is_public": true
+    },
+    "69046a67d621d8d4a925e7b95258de05": {
+      "class_name": "Prefabs.UnitPrefabs.CanvasHealthbar",
+      "is_public": true
+    },
+    "691f91aa7c2f25a43914b8c085fe2ada": {
+      "class_name": "Prefabs.BuildingPrefabs.Claypit.Level40",
+      "is_public": true
+    },
+    "6932e4d7597b84a418aecc7023a8ff4b": {
+      "class_name": "HierarchyHelper",
+      "is_public": false
+    },
+    "69ff1f1a3a384744083d9b04a36684c3": {
+      "class_name": "using.ApiException",
+      "is_public": true
+    },
+    "6a1a5af5dda72544991fcfcedc4a7f80": {
+      "class_name": "Prefabs.BuildingPrefabs.Claypit.Level60",
+      "is_public": true
+    },
+    "6a5ccc6daadf89e469e7c80f5a0ca439": {
+      "class_name": "Prefabs.DefensePrefabs.ButtonDefenseBuilding",
+      "is_public": true
+    },
+    "6aba00897ed32904b8230eb1697fc032": {
+      "class_name": "NewGameUI",
+      "is_public": false
+    },
+    "6b40ad30456969d4f93a7175cf343c77": {
+      "class_name": "DefenseBuildingSystem",
+      "is_public": true
+    },
+    "6d4aafd21e72d94458756ccdd071d026": {
+      "class_name": "Prefabs.BuildingPrefabs.Quarry.Level1",
+      "is_public": true
+    },
+    "6d93e9782a38f96428f5af4bcafbc4c8": {
+      "class_name": "Prefabs.BuildingPrefabs.Church.Level60",
+      "is_public": true
+    },
+    "6da57ce3bbec1944580ada79ae205f99": {
+      "class_name": "Prefabs.BuildingPrefabs.Sawmill.Level20",
+      "is_public": true
+    },
+    "6dd3a12b660c1af4eb268e387dce0743": {
+      "class_name": "Prefabs.BuildingPrefabs.Stonemason.Level40",
+      "is_public": true
+    },
+    "6e5f9e0b11244314fbd103899980a219": {
+      "class_name": "ApiClient",
+      "is_public": true
+    },
+    "6ec5fd0fed9df0047967c7eea0ff22cf": {
+      "class_name": "Objects",
+      "is_public": false
+    },
+    "6eeb3c56114fc5643b0ef2fd73ae0d8e": {
+      "class_name": "Prefabs.UIPrefabs.SocialMenu.PlayerPreviewSearch",
+      "is_public": true
+    },
+    "6f212f53f4b05bf48b20c6de303e6c86": {
+      "class_name": "UserData",
+      "is_public": true
+    },
+    "6f43f0920bd194e4688df9c7e30a730e": {
+      "class_name": "Prefabs.BuildingPrefabs.Bowmaker.Level25",
+      "is_public": true
+    },
+    "6f4a18cd4f6d0454f9d09cf5c93a8e5a": {
+      "class_name": "Prefabs.BuildingPrefabs.Sheepstall.Level50",
+      "is_public": true
+    },
+    "6fc8dfe86c0398f46bc60ff4c1b45697": {
+      "class_name": "Prefabs.UIPrefabs.DefenseMenu.ImageContainerButtons",
+      "is_public": true
+    },
+    "6fcce81ac43b10646b0fc3cdca701ef8": {
+      "class_name": "SocialUI",
+      "is_public": true
+    },
+    "70ba015f8ceba34498869084bb06f4fa": {
+      "class_name": "Prefabs.DefensePrefabs.Trunktrap",
+      "is_public": true
+    },
+    "70d9f857cdb74b9449c57f04e4759ea1": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Wheat2",
+      "is_public": true
+    },
+    "7123598777e3dfe4787cd98dfe6ab977": {
+      "class_name": "Prefabs.DefensePrefabs.Moat",
+      "is_public": true
+    },
+    "7154cd9b00ebd784594c4bf4fec7a024": {
+      "class_name": "UI",
+      "is_public": false
+    },
+    "717a956e16947354fa0bf988f9c38234": {
+      "class_name": "Prefabs.UIPrefabs.TutorialUI.CanvasTutorial",
+      "is_public": true
+    },
+    "72fb7b8e0ee18614d8204a61a256a199": {
+      "class_name": "Prefabs.BuildingPrefabs.Church.Level60",
+      "is_public": true
+    },
+    "7324902dddbb24349b7a7b9f18c3ee08": {
+      "class_name": "Defense_Canvas_Script",
+      "is_public": true
+    },
+    "7326c61c92e93b34babefb812594118d": {
+      "class_name": "Prefabs.BuildingPrefabs.Woodcutter.Level5",
+      "is_public": true
+    },
+    "73c729bc42fa984459f6db33cb859d3a": {
+      "class_name": "ResearchService",
+      "is_public": false
+    },
+    "73c8719035da6144b9bb30c4004fc555": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Apple1",
+      "is_public": true
+    },
+    "73d0cbaed0ba6ed40af6a59b847b3115": {
+      "class_name": "Prefabs.UIPrefabs.MarketMenu.Quests.ButtonQuestbox",
+      "is_public": true
+    },
+    "7498996ec28c6df42b675a51d4b04bdf": {
+      "class_name": "Replay_Canvas_Script",
+      "is_public": true
+    },
+    "7508b5d471751274cb02d2c9922480bb": {
+      "class_name": "Prefabs.UIPrefabs.StockMenu.CanvasStock",
+      "is_public": true
+    },
+    "75428d0f03492294ead9365caf68d056": {
+      "class_name": "Prefabs.BuildingPrefabs.Pigstall.Level20",
+      "is_public": true
+    },
+    "7606d2a8c85e49b49a5570d61e6aa47f": {
+      "class_name": "Prefabs.EnvironmentPrefabs.Wall_straight",
+      "is_public": true
+    },
+    "7857130f9439d3644b4669c1a85c18d6": {
+      "class_name": "Prefabs.UIPrefabs.QuestUI.CanvasQuests",
+      "is_public": true
+    },
+    "7958e32c38ecea54eb655de4f61b339a": {
+      "class_name": "PlayerData",
+      "is_public": true
+    },
+    "796b71d64c79a8147a04bea6f55a1494": {
+      "class_name": "Prefabs.UIPrefabs.ReplayUI.CanvasCombatReplay",
+      "is_public": true
+    },
+    "797d366f46881d749ae0bc5291a87d19": {
+      "class_name": "LightProbeRuntime",
+      "is_public": true
+    },
+    "79d463c09e1f55349b2a7817b2aff7c1": {
+      "class_name": "Prefabs.UIPrefabs.QuestUI.ImageQuestItem",
+      "is_public": true
+    },
+    "79fb79868bf06f34ea9c6ad2b2e60428": {
+      "class_name": "Prefabs.UIPrefabs.StockMenu.StockItemImagePrefab",
+      "is_public": true
+    },
+    "7ab1e5a46fe3b2f42928760420827326": {
+      "class_name": "ProductionService",
+      "is_public": false
+    },
+    "7b148abf2ea3cac42ae0decefe92391a": {
+      "class_name": "Prefabs.BuildingPrefabs.Monastery.Level40",
+      "is_public": true
+    },
+    "7b21dbd3a70fb65418213f1f0f2c0e8f": {
+      "class_name": "Prefabs.UnitPrefabs.Default",
+      "is_public": true
+    },
+    "7c876e91a55d0a345a13d5494ab9e326": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Grape3",
+      "is_public": true
+    },
+    "7dd9645fff36d7346a5fb7a5720c7830": {
+      "class_name": "Market_Canvas_Script",
+      "is_public": true
+    },
+    "7e07248759e94494f8c2b00851b89fe7": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.Level5",
+      "is_public": true
+    },
+    "7e5853ab617031345a5756c976bffbd1": {
+      "class_name": "QuestContainer",
+      "is_public": true
+    },
+    "7e73b6f2d3b7b544daf4faf2cfba1ef1": {
+      "class_name": "Prefabs.UIPrefabs.ConstructionMenu.CanvasBuild",
+      "is_public": true
+    },
+    "7f272f8dddcfcf148913bb9092c98fab": {
+      "class_name": "Prefabs.BuildingPrefabs.Forge.Level60",
+      "is_public": true
+    },
+    "7f748363735951a418e2b40f8a9e0009": {
+      "class_name": "ErrorHandler",
+      "is_public": true
+    },
+    "8016b6a8a319dbd4592dd60258486031": {
+      "class_name": "ChatMessageUI",
+      "is_public": false
+    },
+    "805326b1fc5fdc24a87216afab9f4c83": {
+      "class_name": "Prefabs.BuildingPrefabs.Tailor.Level30",
+      "is_public": true
+    },
+    "809db5bd8f4693b4ca09b482ebe755e3": {
+      "class_name": "Prefabs.UIPrefabs.CastleUI.CanvasCastle",
+      "is_public": true
+    },
+    "80b744f647afc0e4fb3bfe3092119abe": {
+      "class_name": "ChatUI",
+      "is_public": false
+    },
+    "80bfeb0b169090746937fc767d29a136": {
+      "class_name": "Quest",
+      "is_public": true
+    },
+    "814972265f2627a4d88a43810c37e1a6": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Wheat2",
+      "is_public": true
+    },
+    "817fa816d6e34c24dbfab2342f84f9c0": {
+      "class_name": "Prefabs.DefensePrefabs.Trench",
+      "is_public": true
+    },
+    "81b9a0a26485e954185d26fcbc6f03fd": {
+      "class_name": "Prefabs.UIPrefabs.MarketMenu.CanvasMarket",
+      "is_public": true
+    },
+    "825b68b72bc0bf248825107fe9115267": {
+      "class_name": "Prefabs.BuildingPrefabs.Mine.Level1",
+      "is_public": true
+    },
+    "829a283405399134f8489297a6867744": {
+      "class_name": "ObstacleHandler",
+      "is_public": true
+    },
+    "83226d145b3fda14494bff1d5116f296": {
+      "class_name": "Prefabs.EnvironmentPrefabs.Tree",
+      "is_public": true
+    },
+    "833c745f3e441b04ba2e3e50a2aadb07": {
+      "class_name": "Prefabs.Loading.CameraRig",
+      "is_public": true
+    },
+    "8342906845b32f84aa9aeba4936bafa2": {
+      "class_name": "Collect_Canvas_Script",
+      "is_public": true
+    },
+    "85959366c9a88e94ab4951200fc6669c": {
+      "class_name": "Prefabs.BuildingPrefabs.Barracks.Level30",
+      "is_public": true
+    },
+    "85bbe6cc905e62c4ba1590cd4fccd601": {
+      "class_name": "SignalRChatClient",
+      "is_public": true
+    },
+    "869f78bda9acb22459b897320fd3fa0d": {
+      "class_name": "Prefabs.UIPrefabs.MarketMenu.Sell.ButtonItemToSell",
+      "is_public": true
+    },
+    "86e76eef50c28894890a4403e81af9b5": {
+      "class_name": "Prefabs.UnitPrefabs.DefaultUnit",
+      "is_public": true
+    },
+    "875cbae0ed216f44ba2711ee866eec5f": {
+      "class_name": "Prefabs.BuildingPrefabs.BuildersGuild.Level40",
+      "is_public": true
+    },
+    "887572a1901cd0949b4abb9093ca4a26": {
+      "class_name": "Prefabs.UIPrefabs.DefenseMenu.CanvasDefenseBuildings",
+      "is_public": true
+    },
+    "8893511bdc0a68f41a3e8c451b1d3b84": {
+      "class_name": "BuyAnimals",
+      "is_public": true
+    },
+    "89925101c25766b48adc4c5f075a4536": {
+      "class_name": "ParticleEffect",
+      "is_public": true
+    },
+    "899ec0f08707bcd47b72d5c030902b7f": {
+      "class_name": "Prefabs.EnvironmentPrefabs.Wall_bend_width",
+      "is_public": true
+    },
+    "89b31d463d7d35f418114a615bdfe089": {
+      "class_name": "Prefabs.UIPrefabs.OverlayCanvas.CanvasOverlayAttack",
+      "is_public": true
+    },
+    "89da843f300b76047a25636ee063cbad": {
+      "class_name": "InventoryManager",
+      "is_public": false
+    },
+    "89e009465aefeda448e992334067e0f1": {
+      "class_name": "Prefabs.BuildingPrefabs.Monastery.Level50",
+      "is_public": true
+    },
+    "8a4636e2c180da34e9e1fb7509692caa": {
+      "class_name": "Prefabs.UIPrefabs.SettingsUI.CanvasSettings",
+      "is_public": true
+    },
+    "8aa29ebad68925b4ebfea32fa13dcd42": {
+      "class_name": "UX.lib.GKOBJECT",
+      "is_public": false
+    },
+    "8b3e5e093bad6e64ca363aa001df80eb": {
+      "class_name": "Prefabs.BuildingPrefabs.BuildersGuild.Level5",
+      "is_public": true
+    },
+    "8bd0f45f8298fd040b0630ec835b5ebd": {
+      "class_name": "Prefabs.DefensePrefabs.ButtonDefenseBuilding",
+      "is_public": true
+    },
+    "8d16adb67f3230a45a9cf8f35bc887c2": {
+      "class_name": "Prefabs.UIPrefabs.CombatUI.CanvasCombatResult",
+      "is_public": true
+    },
+    "8d1c6e19a26f94347aa43e80ee6c1f27": {
+      "class_name": "Prefabs.UIPrefabs.CastleUI.EnemyUI.EntryEnemyPlayer",
+      "is_public": true
+    },
+    "8dc99aacb492f66449c0cca636a72631": {
+      "class_name": "Prefabs.BuildingPrefabs.Tailor.Level70",
+      "is_public": true
+    },
+    "8e11add7338d5b5478f28c19cd325547": {
+      "class_name": "Assets.Scripts.v1.Utils.Funcs",
+      "is_public": false
+    },
+    "8ec0a39a136fdbe46bcb185983394f56": {
+      "class_name": "Prefabs.BuildingPrefabs.Mill.Level20",
+      "is_public": true
+    },
+    "8f01a2836c7abbb4a9698d1cfdcf2450": {
+      "class_name": "Prefabs.Loading.TransitionClouds",
+      "is_public": true
+    },
+    "8f041aa685191544993440d974d5674b": {
+      "class_name": "Prefabs.BuildingPrefabs.Cowstall.Level5",
+      "is_public": true
+    },
+    "8f177f423bf273547ac054f60c38203a": {
+      "class_name": "Prefabs.BuildingPrefabs.Beekeeper.Level30",
+      "is_public": true
+    },
+    "8f74534e65086b742bf521b1156c3571": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Pear2",
+      "is_public": true
+    },
+    "8fa0150e57d79354aafb2ebd4e20933c": {
+      "class_name": "Prefabs.UnitPrefabs.Archer",
+      "is_public": true
+    },
+    "8fcb1c4fe17ebfd4da8fae2fb40088c7": {
+      "class_name": "Prefabs.BuildingPrefabs.Furnace.Level4",
+      "is_public": true
+    },
+    "902487e62105961479e014e09bb0f420": {
+      "class_name": "Prefabs.UIPrefabs.QuestUI.CanvasQuests",
+      "is_public": true
+    },
+    "9032e1222ef71c24a9fd1c666aaea793": {
+      "class_name": "Prefabs.UIPrefabs.CastleUI.ReplayUI.CanvasCombatLog",
+      "is_public": true
+    },
+    "90e49940baad269449b28037cac05ecf": {
+      "class_name": "EmissionHelper",
+      "is_public": false
+    },
+    "917aec4a58e18ca4c8168fd303ac4b0a": {
+      "class_name": "Prefabs.BuildingPrefabs.Pottery.Level25",
+      "is_public": true
+    },
+    "91987b6a779766b4d905c8a6b7a002dc": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.StallBuildings.CanvasStallBuildings",
+      "is_public": true
+    },
+    "9327835bbe6b2b948a53a0cff5259147": {
+      "class_name": "Prefabs.UIPrefabs.NoConnectionUI.CanvasNoConnection",
+      "is_public": true
+    },
+    "9431234dc4729c54daec62fe9a5a99ef": {
+      "class_name": "ScaleUIElementToParentSize",
+      "is_public": true
+    },
+    "949115a2ce2b5a442916156d6438d2be": {
+      "class_name": "Prefabs.BuildingPrefabs.BuildersGuild.Level5",
+      "is_public": true
+    },
+    "9496585fdddf7654785d625e86667a07": {
+      "class_name": "Prefabs.BuildingPrefabs.Barracks.Level65",
+      "is_public": true
+    },
+    "95ef23040aa6a46429593fbfd3c56e35": {
+      "class_name": "SaveSystem",
+      "is_public": false
+    },
+    "9618cd03eb4020046b163ee265460775": {
+      "class_name": "Prefabs.UIPrefabs.OverlayCanvas.CanvasOverlayAttack",
+      "is_public": true
+    },
+    "96715745ab921f74dab989458f17b0dc": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.ImageInfoBoxUpgradeData",
+      "is_public": true
+    },
+    "969fac9c67064e444b6188e3fc4687df": {
+      "class_name": "TreeUI_Canvas_Script",
+      "is_public": true
+    },
+    "972241b4204724f408335583b8d51d5f": {
+      "class_name": "Prefabs.UnitPrefabs.Particle",
+      "is_public": true
+    },
+    "9729622ee7af4944d879c0cc8ea4a0d1": {
+      "class_name": "TrashHandler",
+      "is_public": false
+    },
+    "973323f7f530f0f4aa510f8f157f71f5": {
+      "class_name": "Prefabs.BuildingPrefabs.Bakery.Level5",
+      "is_public": true
+    },
+    "9740436a8a794984b8c6873810fa2df8": {
+      "class_name": "LevelLoader",
+      "is_public": true
+    },
+    "9776555e91d8f134a925eed1d03963c3": {
+      "class_name": "UnitHandler",
+      "is_public": true
+    },
+    "97b336d90b113b541b795e9b2bdd6aa7": {
+      "class_name": "Prefabs.BuildingPrefabs.Mine.Level1",
+      "is_public": true
+    },
+    "98a639e1acff9724cb37971e2ea4e3f4": {
+      "class_name": "Prefabs.BuildingPrefabs.Sheepstall.Level5old",
+      "is_public": true
+    },
+    "99f4ee81021491e49961ef2f9304776f": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.StallBuildings.ImagePopupMenuBuyAnimal",
+      "is_public": true
+    },
+    "9b70c4f2fbca78a42900144cdabfa032": {
+      "class_name": "Prefabs.UIPrefabs.MarketMenu.Quests.ButtonQuestbox",
+      "is_public": true
+    },
+    "9c27116cddf57ef409a200d25f326ac3": {
+      "class_name": "UX.lib.ItemPopupHelper",
+      "is_public": true
+    },
+    "9c93a8111a1175e43959d71d5a16b405": {
+      "class_name": "Prefabs.UnitPrefabs.Default",
+      "is_public": true
+    },
+    "9e097f98212a90245a7706a7dd821004": {
+      "class_name": "Prefabs.UIPrefabs.TreeUI.CanvasTree",
+      "is_public": true
+    },
+    "9e109b8c55815af4c8cc216f732c693e": {
+      "class_name": "CheckCollider",
+      "is_public": true
+    },
+    "9e2ca2d4c1bdce34fbbe167b0a5352bf": {
+      "class_name": "Prefabs.UIPrefabs.OverlayCanvas.CanvasOverlay",
+      "is_public": true
+    },
+    "9ee34778b12a78f4fa0612aca98df4a8": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.StallBuildings.PopUpFeedAnimal",
+      "is_public": true
+    },
+    "9f67085a6d985cb4a9851a352b24473f": {
+      "class_name": "Prefabs.BuildingPrefabs.Pigstall.Level40",
+      "is_public": true
+    },
+    "9fbd5ce007b1d044abaccc41c0c73dcd": {
+      "class_name": "Prefabs.BuildingPrefabs.Forge.Level60",
+      "is_public": true
+    },
+    "9febdb973a5b5114796117119d493c35": {
+      "class_name": "Social",
+      "is_public": true
+    },
+    "a10c04bb4e56bee4881ac8ef844ee49c": {
+      "class_name": "Prefabs.UnitPrefabs.Swordsman",
+      "is_public": true
+    },
+    "a14736dcc361aaf4790db9e910dd1758": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Wheat3",
+      "is_public": true
+    },
+    "a1d428e6353b5dd48b636fcd4785e6fe": {
+      "class_name": "Prefabs.BuildingPrefabs.Monastery.Level25",
+      "is_public": true
+    },
+    "a2568b96c92bf4849b728facf28b9077": {
+      "class_name": "Prefabs.BuildingPrefabs.Woodcutter.Level40",
+      "is_public": true
+    },
+    "a25ae4846a4dfdb4f9cebacdd3fdcd5d": {
+      "class_name": "Prefabs.BuildingPrefabs.Chickenstall.Level20",
+      "is_public": true
+    },
+    "a349cda31069d914e843eef86e96f07b": {
+      "class_name": "Prefabs.BuildingPrefabs.Sheepstall.Level50",
+      "is_public": true
+    },
+    "a4450164cc24dd34a897fa61ca3a2954": {
+      "class_name": "Prefabs.BuildingPrefabs.Furnace.Level15",
+      "is_public": true
+    },
+    "a5064774bb6c1cb47b97a155836aab29": {
+      "class_name": "Prefabs.BuildingPrefabs.Mine.Level40",
+      "is_public": true
+    },
+    "a5b77b5b1150b5140b395d58a3b54b43": {
+      "class_name": "Prefabs.UIPrefabs.MarketMenu.CanvasMarket",
+      "is_public": true
+    },
+    "a6688f66f4f57074e9d7664c44afc78d": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Pear1",
+      "is_public": true
+    },
+    "a696eec7ea303304ba8ef1cbbecd7a7f": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.UpgradeBuildingMenu.ContainerUpgradeArsenal",
+      "is_public": true
+    },
+    "a7c177a3b469b7a4e86cfe7e012fe2fa": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.ButtonPrefabItemRound",
+      "is_public": true
+    },
+    "a7dafc1a66d3cce40a63eaf61d063aa7": {
+      "class_name": "Prefabs.BuildingPrefabs.Butcher.Level20",
+      "is_public": true
+    },
+    "a8affb90707fb24458a1602b950a8ed5": {
+      "class_name": "Prefabs.BuildingPrefabs.Forge.Level15",
+      "is_public": true
+    },
+    "a8ca2b6007d8a794e9996d37eadc3579": {
+      "class_name": "Prefabs.BuildingPrefabs.Claypit.Level40",
+      "is_public": true
+    },
+    "a923db0df7ab7f7469c54bd5ce71d478": {
+      "class_name": "ChangeTerrainHeight",
+      "is_public": true
+    },
+    "a9c8067409f14ba4eaa6ad29c83000c7": {
+      "class_name": "CompareUI",
+      "is_public": true
+    },
+    "ab1f4848cd48148499a8e5b4348435be": {
+      "class_name": "ChatHandler",
+      "is_public": false
+    },
+    "ab5b4af9bbf98884c9f724dfc00b65e9": {
+      "class_name": "ResearchUI_Canvas_Script",
+      "is_public": true
+    },
+    "ab649f59b5b65644fbfc814373818064": {
+      "class_name": "ButtonFunctionMailReg",
+      "is_public": true
+    },
+    "abf1c12439525a6448ffa536a9e95093": {
+      "class_name": "Prefabs.UIPrefabs.MainMap.SliderLoading",
+      "is_public": true
+    },
+    "ac4ff5d074337ff4a964f61bd2cf786d": {
+      "class_name": "Prefabs.BuildingPrefabs.Bakery.Level25",
+      "is_public": true
+    },
+    "add01f68f75cbdf4a860c5a0b6b64309": {
+      "class_name": "Billboard",
+      "is_public": true
+    },
+    "af5558b3484b6804e9008053b93ad8a1": {
+      "class_name": "Prefabs.BuildingPrefabs.Beekeeper.Level20",
+      "is_public": true
+    },
+    "afce1b236cf18764d87f6a0fb219694b": {
+      "class_name": "Prefabs.BuildingPrefabs.Furnace.Level4",
+      "is_public": true
+    },
+    "b0a1d64828a511e48bbe8c30ed176b49": {
+      "class_name": "Prefabs.BuildingPrefabs.Bowmaker.Level5",
+      "is_public": true
+    },
+    "b16a55053802fa84d9f5f0f51a27a009": {
+      "class_name": "Prefabs.BuildingPrefabs.Barracks.Level15",
+      "is_public": true
+    },
+    "b187f9bba5f35ba4cb9ad3dd72283d5f": {
+      "class_name": "Prefabs.DefensePrefabs.MudPit",
+      "is_public": true
+    },
+    "b28dc5278d5fe3042b5ba15bd61442d7": {
+      "class_name": "Prefabs.BuildingPrefabs.Furnace.Level30",
+      "is_public": true
+    },
+    "b291de1b36fdbf0478881f24105363bb": {
+      "class_name": "Prefabs.UIPrefabs.MainMap.CanvasMainMap",
+      "is_public": true
+    },
+    "b2cca918bbede2c4684526f697333661": {
+      "class_name": "Prefabs.BuildingPrefabs.Woodcutter.Level20",
+      "is_public": true
+    },
+    "b413976c757106f4395645e68c54e026": {
+      "class_name": "AuthenticationService",
+      "is_public": false
+    },
+    "b424e81d2b92a9e4ab23028065a38df5": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.Headline",
+      "is_public": true
+    },
+    "b4ffbb4551751504e9bb847fba332fe7": {
+      "class_name": "DefenseService",
+      "is_public": false
+    },
+    "b505d97cf4e130c42b721b3094af30b1": {
+      "class_name": "Prefabs.BuildingPrefabs.Tanner.Level25",
+      "is_public": true
+    },
+    "b51cad9ec62bee24ab4c5024ae4c203c": {
+      "class_name": "Prefabs.BuildingPrefabs.Mill.Level2",
+      "is_public": true
+    },
+    "b60a1bc30c74c72469a45150ddc190ee": {
+      "class_name": "UX.lib.AnimalStallManager",
+      "is_public": true
+    },
+    "b60f2a3d1575e3346b7359941af03923": {
+      "class_name": "ButtonHoldHandler",
+      "is_public": true
+    },
+    "b69ada9824000d146a4da5b02909a1ba": {
+      "class_name": "Prefabs.BuildingPrefabs.Woodcutter.Level10",
+      "is_public": true
+    },
+    "b6bd721e13a2fa84ab9ec8d7e4bc9c67": {
+      "class_name": "Prefabs.BuildingPrefabs.Pottery.Level25",
+      "is_public": true
+    },
+    "b7a32bfd2c425204c8360444c5deb042": {
+      "class_name": "UX.lib.BuildingUIHelper",
+      "is_public": false
+    },
+    "b7ecee8d42cb5d44ca63bd242a62edc5": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Grape3",
+      "is_public": true
+    },
+    "b7fb995a2c32333479a6d9504a4806e8": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Apple2",
+      "is_public": true
+    },
+    "b82fe9f8f1dac534983eeb4c37bd6ea5": {
+      "class_name": "Prefabs.UIPrefabs.ErrorUIs.CanvasError",
+      "is_public": true
+    },
+    "b83f449f9a7a6a6428cc13c0740b2105": {
+      "class_name": "PrefabLightmapData",
+      "is_public": true
+    },
+    "b95c36e806aaaf842a74fe6e59730c55": {
+      "class_name": "ProjectileData",
+      "is_public": true
+    },
+    "b98d95632aa9a6d4483ceb14b7f47fc4": {
+      "class_name": "Prefabs.BuildingPrefabs.Stonemason.Level40",
+      "is_public": true
+    },
+    "ba72eab709d656e4ab0789de062f5d63": {
+      "class_name": "Prefabs.DefensePrefabs.DefenseBuildingTilePalette",
+      "is_public": true
+    },
+    "bb2c854afb9455c41817fa78a0ede0b2": {
+      "class_name": "Prefabs.UIPrefabs.SocialMenu.ButtonFriendEntry",
+      "is_public": true
+    },
+    "bc563410dbe59314f8440117b674455c": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Apple2",
+      "is_public": true
+    },
+    "bc7749c3ffff9a44e9a8e54d4ce1086c": {
+      "class_name": "Castle_Canvas_Script",
+      "is_public": true
+    },
+    "bcd6a7997d360384680bff12209cabbb": {
+      "class_name": "UX.lib.GKUI",
+      "is_public": true
+    },
+    "bcf6add520bb4da4cabaf272dacd80e3": {
+      "class_name": "Prefabs.UIPrefabs.MarketMenu.Sell.ButtonItemToSell",
+      "is_public": true
+    },
+    "bd2a752da8906634dbdb1e2a9c94ed07": {
+      "class_name": "Prefabs.UnitPrefabs.CanvasHealthbar",
+      "is_public": true
+    },
+    "bd69bdecd5b8869479956cd44a75a6f4": {
+      "class_name": "Tag",
+      "is_public": true
+    },
+    "bdeb06da51de0834da2db4009d18ffd1": {
+      "class_name": "Prefabs.BuildingPrefabs.Quarry.Level10",
+      "is_public": true
+    },
+    "beb123522f410a84dbea8fa076d2c3f5": {
+      "class_name": "ItemGroup",
+      "is_public": true
+    },
+    "bf0f9f150242c584fb61c177fa24190d": {
+      "class_name": "Prefabs.UIPrefabs.MarketMenu.Buy.ImageItemBuyContainer",
+      "is_public": true
+    },
+    "bf3b075d43ff9254aa02c26444720c26": {
+      "class_name": "Prefabs.UIPrefabs.NoConnectionUI.CanvasNoConnection",
+      "is_public": true
+    },
+    "bf705f162020ec245be3b71fac14817e": {
+      "class_name": "Build_Canvas_Script",
+      "is_public": true
+    },
+    "bf839d08810a76241b6adda0bceb5d6f": {
+      "class_name": "ScrollHelper",
+      "is_public": false
+    },
+    "bfea9193fc259d04eb0a605e150e6b18": {
+      "class_name": "Game",
+      "is_public": false
+    },
+    "c134535f91783f140bb544c4b9498082": {
+      "class_name": "Prefabs.DefensePrefabs.Swordsmanoutpost",
+      "is_public": true
+    },
+    "c19979f648b97a74c947060d78464c24": {
+      "class_name": "Prefabs.NaturePrefabs.Animals.Chicken.Prefab",
+      "is_public": true
+    },
+    "c1cbc574c154fe946b2f9e2b4079f82c": {
+      "class_name": "Prefabs.UIPrefabs.CollectBuildingMenu.PopUpCollectedItemsUI",
+      "is_public": true
+    },
+    "c1f87377e0823af49942bee8dd86fff6": {
+      "class_name": "Prefabs.BuildingPrefabs.Dairy.Level60",
+      "is_public": true
+    },
+    "c25772dd1b51bcc429dda58eab5d3f40": {
+      "class_name": "Prefabs.BuildingPrefabs.Pottery.Level50",
+      "is_public": true
+    },
+    "c29a3f3ec54a30744892298600aa6a92": {
+      "class_name": "Prefabs.BuildingPrefabs.BuildersGuild.Level40",
+      "is_public": true
+    },
+    "c2c05977aa1489e4e89a0b915dfea3e5": {
+      "class_name": "Prefabs.BuildingPrefabs.Sheepstall.Level5",
+      "is_public": true
+    },
+    "c314782b3272ca8468d2304d47a5bbb4": {
+      "class_name": "Prefabs.UIPrefabs.NoConnectionUI.CanvasLoading",
+      "is_public": true
+    },
+    "c4bd88b815d57594cba23ad796f5facf": {
+      "class_name": "Prefabs.BuildingPrefabs.Cowstall.Level25",
+      "is_public": true
+    },
+    "c4c3472598e200140bbd3966305b106d": {
+      "class_name": "Prefabs.BuildingPrefabs.Beekeeper.Level30",
+      "is_public": true
+    },
+    "c576ee1d8ba276e4eb97e4977562b75b": {
+      "class_name": "MapDetailController",
+      "is_public": true
+    },
+    "c611618d66aaaf344a3f91bf932dc4ef": {
+      "class_name": "Prefabs.UIPrefabs.CollectBuildingMenu.PopUpCollectedItemsUI",
+      "is_public": true
+    },
+    "c6b7692c254f3044e9c54fbc242757a0": {
+      "class_name": "Prefabs.UIPrefabs.SocialMenu.ImagePopUpFriendActions",
+      "is_public": true
+    },
+    "c71983b35bd636e48aa8a073b802d9a7": {
+      "class_name": "Prefabs.BuildingPrefabs.Tailor.Level70",
+      "is_public": true
+    },
+    "c8391d03e7774c342a4d6fd076e5ef28": {
+      "class_name": "Prefabs.UIPrefabs.ConstructionMenu.BuildingMenuPage",
+      "is_public": true
+    },
+    "c91151f5df4fd8f48ae26d8a4bfca5bb": {
+      "class_name": "Prefabs.BuildingPrefabs.Sawmill.Level1",
+      "is_public": true
+    },
+    "c94b792944974d84b91d31808e611bf8": {
+      "class_name": "Prefabs.UnitPrefabs.ButtonUnits",
+      "is_public": true
+    },
+    "c97ccee17d88836499fd33abc0f65c0e": {
+      "class_name": "Market",
+      "is_public": true
+    },
+    "c9cc594f6e000d948a0edafbe843a63a": {
+      "class_name": "Prefabs.UIPrefabs.StockMenu.StockItemContainer",
+      "is_public": true
+    },
+    "cacff3194e1e8ef42ac11d8040affaa2": {
+      "class_name": "Prefabs.UIPrefabs.OverlayCanvas.CanvasOverlay",
+      "is_public": true
+    },
+    "cb2b24c6d338bbd45ad94102ccc96b47": {
+      "class_name": "Prefabs.BuildingPrefabs.Woodcutter.Level5",
+      "is_public": true
+    },
+    "cb52502125400cd4fbbfcd463c372a5a": {
+      "class_name": "Prefabs.UIPrefabs.NewGameUI.CanvasNewGame",
+      "is_public": true
+    },
+    "cb567612dc0c82f4eadc497f2e3daa41": {
+      "class_name": "Prefabs.BuildingPrefabs.Claypit.Level20",
+      "is_public": true
+    },
+    "cc383f2777b60594482b5b9b33e20b59": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.Level1",
+      "is_public": true
+    },
+    "ccf19fb85223c6c4d8100150be88d5b5": {
+      "class_name": "Prefabs.BuildingPrefabs.Tanner.Level5",
+      "is_public": true
+    },
+    "cda78571219a5bd4d98cf576d4d3bf1e": {
+      "class_name": "Test",
+      "is_public": false
+    },
+    "cdd9990bc882b1a45bb8746cd65adb3e": {
+      "class_name": "PlayerDataCache",
+      "is_public": false
+    },
+    "cef796f4da9163148814eda2aae2f61d": {
+      "class_name": "Combat",
+      "is_public": true
+    },
+    "d00bfb04c18c48b4ebc28bafabd913a7": {
+      "class_name": "Prefabs.UIPrefabs.NoConnectionUI.CanvasLoading",
+      "is_public": true
+    },
+    "d00d017c713c83a4ab784bb2e9f01be3": {
+      "class_name": "Prefabs.BuildingPrefabs.Sheepstall.Level50old",
+      "is_public": true
+    },
+    "d068f169f81f2c64aab986aa096adf97": {
+      "class_name": "MoveProjectile",
+      "is_public": true
+    },
+    "d0882e4f476ca904f8c195d3a2b5f067": {
+      "class_name": "FixScrollRect",
+      "is_public": true
+    },
+    "d18f3a4200cfad84daddb0bcf58b6e54": {
+      "class_name": "Prefabs.UIPrefabs.TutorialUI.ImagePopUpTutorial",
+      "is_public": true
+    },
+    "d1a5fbc4d70901c429396f91abc77164": {
+      "class_name": "Prefabs.UIPrefabs.MarketMenu.Sell.PrefabSellItemSelect",
+      "is_public": true
+    },
+    "d20f8b01bd12a6941ab4c000bf72efce": {
+      "class_name": "Prefabs.BuildingPrefabs.Pigstall.Level40",
+      "is_public": true
+    },
+    "d21140f95c06f7944bc3728dba9711df": {
+      "class_name": "Prefabs.BuildingPrefabs.Fisher.Level60",
+      "is_public": true
+    },
+    "d2f0ce1074230a746be546e8e3f29510": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.ImageCost",
+      "is_public": true
+    },
+    "d37f8871be31ddd439dd5665c35cd912": {
+      "class_name": "AttackRadius",
+      "is_public": true
+    },
+    "d3a8a686122ac65419ef81287d29b154": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Hop2",
+      "is_public": true
+    },
+    "d3ed8d0e0c318434cb50df524d0ae6ed": {
+      "class_name": "Prefabs.UIPrefabs.CombatUI.ImageIconMaterial_Unit",
+      "is_public": true
+    },
+    "d42e7ab97843bb74e992071878802899": {
+      "class_name": "Prefabs.BuildingPrefabs.BuildersGuild.Level20",
+      "is_public": true
+    },
+    "d436ba7d883aae341a40b0336c9fe069": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Pear2",
+      "is_public": true
+    },
+    "d451d6675084aad48a8a1aa26163e9fd": {
+      "class_name": "Prefabs.BuildingPrefabs.Pottery.Level50",
+      "is_public": true
+    },
+    "d49f7a509cf82ee47908cf429116a95f": {
+      "class_name": "Prefabs.BuildingPrefabs.Quarry.Level1",
+      "is_public": true
+    },
+    "d5a160b8557265c4a8f9a3535a877f51": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.Level1",
+      "is_public": true
+    },
+    "d739ca6abf2780f4caf36d2f413a5cd5": {
+      "class_name": "Prefabs.UnitPrefabs.Particle",
+      "is_public": true
+    },
+    "d73a39145cfeccb48a4f7bd57d536715": {
+      "class_name": "MarketSell_Canvas_Script",
+      "is_public": true
+    },
+    "d751285fc1d1e954b9325e4a03f8f49a": {
+      "class_name": "Stack",
+      "is_public": true
+    },
+    "d78a182b88d05774aa6ddeaf34a6170f": {
+      "class_name": "Prefabs.BuildingPrefabs.Quarry.Level40",
+      "is_public": true
+    },
+    "d7a606f7391654444957f673e85578bd": {
+      "class_name": "Prefabs.UIPrefabs.MarketMenu.Buy.ButtonItemToBuy",
+      "is_public": true
+    },
+    "d9652799a7a9ece4fa01130fd657fb51": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.UpgradeDataLine",
+      "is_public": true
+    },
+    "d9c1cfe40689d4a4bbb0536f4514b00a": {
+      "class_name": "Prefabs.BuildingPrefabs.Bowmaker.Level40",
+      "is_public": true
+    },
+    "db594bab9c5f71c4c894926a03558daa": {
+      "class_name": "Prefabs.BuildingPrefabs.Forge.Level5",
+      "is_public": true
+    },
+    "db65cb58d92a1a34582e7adfb59cae50": {
+      "class_name": "Prefabs.BuildingPrefabs.Stonemason.Level20",
+      "is_public": true
+    },
+    "dc8b2574c05e638459f67f92dcfb599d": {
+      "class_name": "Prefabs.BuildingPrefabs.Fisher.Level1",
+      "is_public": true
+    },
+    "dd5b4a199e74ab741b1e0210c0e5287d": {
+      "class_name": "Prefabs.BuildingPrefabs.PopUpCollectItem",
+      "is_public": true
+    },
+    "ddbb6d13ce25f8945983cc662fa7d875": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.CollectBuildings.CanvasCollectBuildings",
+      "is_public": true
+    },
+    "dea227e4971b27948a08dce9a190fa8a": {
+      "class_name": "Prefabs.BuildingPrefabs.Bakery.Level2",
+      "is_public": true
+    },
+    "df61b15f69482c34e8d92bfef7164bfb": {
+      "class_name": "Prefabs.BuildingPrefabs.Mine.Level10",
+      "is_public": true
+    },
+    "df6d5055007213f459cccb5bc7be403d": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.ImageCost",
+      "is_public": true
+    },
+    "df759ceb626a0f8408521867107eed65": {
+      "class_name": "Translation",
+      "is_public": false
+    },
+    "dfb0eda69911e7c46bf273c09d1d02bb": {
+      "class_name": "Prefabs.BuildingPrefabs.Butcher.Level5",
+      "is_public": true
+    },
+    "e243432cf1dec3544b07f3bf025e93b9": {
+      "class_name": "Prefabs.UIPrefabs.ErrorUIs.CanvasError",
+      "is_public": true
+    },
+    "e2ac52a70a251d74bb9efb2b4b169273": {
+      "class_name": "Prefabs.UIPrefabs.SocialMenu.CanvasCreateProfilePicture",
+      "is_public": true
+    },
+    "e32e85266d981dc44b2c00c3ee25be9f": {
+      "class_name": "Prefabs.BuildingPrefabs.Mine.Level20",
+      "is_public": true
+    },
+    "e36382c3b7b99b348b4735b07ea9ce71": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.StallBuildings.PopUpFeedAnimal",
+      "is_public": true
+    },
+    "e371030fe26dee149a4e6a6cd76a7d4a": {
+      "class_name": "CameraHandler",
+      "is_public": true
+    },
+    "e3c14a1950cbb374ebf92d6aec57c23c": {
+      "class_name": "Prefabs.BuildingPrefabs.Woodcutter.Level1",
+      "is_public": true
+    },
+    "e3d4e3faa663b284b9fceed31770bbdd": {
+      "class_name": "Prefabs.AttackPrefabs.ButtonUnit",
+      "is_public": true
+    },
+    "e490d3f284952724190aa74ad68654a0": {
+      "class_name": "Map",
+      "is_public": false
+    },
+    "e4f9a7373578b02419b870d20165c7d2": {
+      "class_name": "Prefabs.BuildingPrefabs.Sawmill.Level20",
+      "is_public": true
+    },
+    "e54ebb7305592ee45821a3c6bc03ff4b": {
+      "class_name": "Prefabs.BuildingPrefabs.Sheepstall.Level50old",
+      "is_public": true
+    },
+    "e5667e143b1e2844796fe1f473dde11b": {
+      "class_name": "Assets.Scripts.v1.Utils.PromiseExtensions",
+      "is_public": false
+    },
+    "e574602dbce58e14fa05044dfabce9df": {
+      "class_name": "Prefabs.BuildingPrefabs.Quarry.Level40",
+      "is_public": true
+    },
+    "e5d996c536959754990247d54da6862e": {
+      "class_name": "Prefabs.UIPrefabs.OverlayCanvas.PopUpButtonMenu.CanvasButtonPopUp",
+      "is_public": true
+    },
+    "e639994c3e7db054aaadf24bf6773d50": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.CollectBuildings.CanvasCollectBuildings",
+      "is_public": true
+    },
+    "e759d97dbd6c16e4792f00bc8401de5c": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Hop1",
+      "is_public": true
+    },
+    "e8073085357c1984db1bc059d7e04eb3": {
+      "class_name": "MarketService",
+      "is_public": false
+    },
+    "e83ded6267c0b0746993054b3baf3b1a": {
+      "class_name": "Prefabs.UIPrefabs.SocialMenu.ImagePopUpFriendActions",
+      "is_public": true
+    },
+    "e8bedf96589c42248bb70a3614983c00": {
+      "class_name": "CompareStats",
+      "is_public": true
+    },
+    "e8d974b2a88a6a24daceefaab432961e": {
+      "class_name": "Prefabs.UIPrefabs.DefenseMenu.ImageContainerButtons",
+      "is_public": true
+    },
+    "e9196de294b455d4fbdb1a0de47264f0": {
+      "class_name": "Prefabs.UIPrefabs.OverlayCanvas.PopUpButtonMenu.CanvasButtonPopUp",
+      "is_public": true
+    },
+    "e97ab683f5fc0cd42b8f5934dafded2d": {
+      "class_name": "Prefabs.BuildingPrefabs.Barracks.Level45",
+      "is_public": true
+    },
+    "eac4b98a1d2b8894eb69c8100dde6b7a": {
+      "class_name": "DefenseButtonDragger",
+      "is_public": true
+    },
+    "eb24676f799ae2c41b21020774cfea18": {
+      "class_name": "PopUpWindow",
+      "is_public": true
+    },
+    "ebc0048b477abad48a023f0da68ad40c": {
+      "class_name": "Prefabs.UIPrefabs.CombatUI.ImageIconMaterial_Unit",
+      "is_public": true
+    },
+    "ebc908093e220fa4ab36b591d33a9bc8": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Grape2",
+      "is_public": true
+    },
+    "ebda88ea9b65ede44b2e40a2397f1586": {
+      "class_name": "IntegrationMethods",
+      "is_public": false
+    },
+    "ec9bf982eb69d83489d9666a934cc868": {
+      "class_name": "Prefabs.BuildingPrefabs.Sheepstall.Level5old",
+      "is_public": true
+    },
+    "ecf66c2791d6c45428bd66cba2b2be17": {
+      "class_name": "Prefabs.UIPrefabs.MarketMenu.Quests.ImageContentContainerQuestResources",
+      "is_public": true
+    },
+    "ed8ff4433a55fc24bae1bfdfa84c2bff": {
+      "class_name": "Prefabs.UnitPrefabs.DefaultUnit",
+      "is_public": true
+    },
+    "ed92f8ca17a6d9c49a0892552a49618b": {
+      "class_name": "Prefabs.DefensePrefabs.Trench",
+      "is_public": true
+    },
+    "ede0025993a7f61409cc04dbd47370a1": {
+      "class_name": "Prefabs.BuildingPrefabs.Woodcutter.Level1",
+      "is_public": true
+    },
+    "ef1c8107748e4a34db01c0224b29f777": {
+      "class_name": "Prefabs.UIPrefabs.ReplayUI.CanvasCombatReplay",
+      "is_public": true
+    },
+    "ef7da8551058e354196e211219be4bb9": {
+      "class_name": "Prefabs.UIPrefabs.ConstructionMenu.BuildingMenuPage",
+      "is_public": true
+    },
+    "efa3b4c1c4a9f9247a28323ce0e4b228": {
+      "class_name": "GameDataCache",
+      "is_public": false
+    },
+    "f0df40eb77221024385acb106365ce66": {
+      "class_name": "Prefabs.UIPrefabs.MarketMenu.Buy.ImageContainerBuy",
+      "is_public": true
+    },
+    "f1b12132b3e0a2342b6af722cc18aa3d": {
+      "class_name": "Prefabs.UIPrefabs.StockMenu.CanvasStock",
+      "is_public": true
+    },
+    "f272092a1fdbe5540aa15b21f795db2a": {
+      "class_name": "Prefabs.BuildingPrefabs.ResourceContainerBox",
+      "is_public": true
+    },
+    "f2c633f181d6bff42a69844682190d64": {
+      "class_name": "Prod_Canvas_Script",
+      "is_public": true
+    },
+    "f380859b47bd31b489ffd37b6b16e0de": {
+      "class_name": "InstantiateObjects",
+      "is_public": true
+    },
+    "f3d87bc152ece604599a413f74359739": {
+      "class_name": "ScrollTexture",
+      "is_public": true
+    },
+    "f45b894aa1f3ada4fa61fb1342e7a4cc": {
+      "class_name": "FireProjectiles",
+      "is_public": true
+    },
+    "f6340ac9dc2af9f4da26cf8e080028fb": {
+      "class_name": "UX.lib.UIHelper",
+      "is_public": true
+    },
+    "f6e1642b7e8c9ba488672983b4b7fddf": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Apple3",
+      "is_public": true
+    },
+    "f70a7c5cf938e584a872dba68b90f921": {
+      "class_name": "Prefabs.UIPrefabs.QuestUI.ImageQuest",
+      "is_public": true
+    },
+    "f71419be28f55664691b0cee9b16bc65": {
+      "class_name": "CustomButtons",
+      "is_public": true
+    },
+    "f773bb494bb71c24cbfe5f9ae1a7f723": {
+      "class_name": "Prefabs.NaturePrefabs.Animals.Chicken.Prefab",
+      "is_public": true
+    },
+    "f88bed53c47400f4c9e5c1b1215329ff": {
+      "class_name": "Prefabs.BuildingPrefabs.Fisher.Level40",
+      "is_public": true
+    },
+    "f8aeec248fbb97048bcbbbdeccb5fe21": {
+      "class_name": "Prefabs.DefensePrefabs.DefenseBuildingTilePalette",
+      "is_public": true
+    },
+    "f8ce9b57adc7a2f45b587ff3844093e8": {
+      "class_name": "Prefabs.BuildingPrefabs.Woodcutter.Level20",
+      "is_public": true
+    },
+    "f917349642fc2b64c9b1e389822f7e80": {
+      "class_name": "Prefabs.UnitPrefabs.Longswordknight",
+      "is_public": true
+    },
+    "f9a6566f9f0aeb6498ca9d31de898213": {
+      "class_name": "Prefabs.EnvironmentPrefabs.Wall_bend_height",
+      "is_public": true
+    },
+    "f9a73ed7bcaca444bb0e176398bf9a9e": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.StallBuildings.CanvasStallBuildings",
+      "is_public": true
+    },
+    "f9aed4264c38e55408fc6cf32c87aed0": {
+      "class_name": "Prefabs.UIPrefabs.SettingsUI.CanvasSettings",
+      "is_public": true
+    },
+    "fa5ade5f846e8764cb863fd9da545ea0": {
+      "class_name": "LoadMainMap",
+      "is_public": true
+    },
+    "fa61914af760e364f998530fc811b954": {
+      "class_name": "Prefabs.BuildingPrefabs.Pottery.Level60",
+      "is_public": true
+    },
+    "fb3c3f638d4b7434a824c54c48597784": {
+      "class_name": "Realm_Object_Script",
+      "is_public": true
+    },
+    "fc259f953e4c8254aa94c78cf119f779": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Pear3",
+      "is_public": true
+    },
+    "fc9fdb36f734f8d4a9ccb3c6b6ef241a": {
+      "class_name": "Prefabs.BuildingPrefabs.Chickenstall.Level10",
+      "is_public": true
+    },
+    "fd00d3eb006c7d640878e511c6f9b996": {
+      "class_name": "Prefabs.BuildingPrefabs.Farm.CropsPrefabs.Hop2",
+      "is_public": true
+    },
+    "fd015bd160159d7458a9e92220502dfc": {
+      "class_name": "Prefabs.UnitPrefabs.Knight",
+      "is_public": true
+    },
+    "fd73c796f8eb0774d8903b80d0fdacdd": {
+      "class_name": "WaitForUIButtons",
+      "is_public": true
+    },
+    "fdc93cb0cd8ecb1449b8c47c6bace9d3": {
+      "class_name": "Prefabs.UIPrefabs.OverlayCanvas.ChatPopUp.ChatMessage",
+      "is_public": true
+    },
+    "fe5062ee66174214da3d3e2fe22d6f45": {
+      "class_name": "SocialService",
+      "is_public": false
+    },
+    "fee21141d1818b14e810d63d977deb4f": {
+      "class_name": "Prefabs.UIPrefabs.BuildingUIs.ProductionBuildings.Production.CanvasProductionBuildingProductions",
+      "is_public": true
+    },
+    "ff7500f3c6915934f9a141fae35f4e6e": {
+      "class_name": "Prefabs.BuildingPrefabs.Cowstall.Level25",
+      "is_public": true
+    },
+    "ffdf188f68a5f434dae6b1cdfc9020b0": {
+      "class_name": "Prefabs.BuildingPrefabs.Claypit.Level20",
+      "is_public": true
+    }
+  },
+  "file_hashes": {
+    "Assets/Resources/Prefabs/AttackPrefabs/ButtonUnit.prefab": "1779692884000000000_15984",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Bakery/level10.prefab": "1779692884000000000_7054",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Bakery/level2.prefab": "1779692884000000000_7051",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Bakery/level25.prefab": "1779692884000000000_9415",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Bakery/level5.prefab": "1779692884000000000_7051",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Barracks/level15.prefab": "1779692884000000000_6377",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Barracks/level30.prefab": "1779692884000000000_6377",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Barracks/level45.prefab": "1779692884000000000_6377",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Barracks/level5.prefab": "1779692884000000000_6376",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Barracks/level65.prefab": "1779692884000000000_6377",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Beekeeper/level20.prefab": "1779692884000000000_6401",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Beekeeper/level30.prefab": "1779692884000000000_6401",
+    "Assets/Resources/Prefabs/BuildingPrefabs/BuildersGuild/level20.prefab": "1779692884000000000_4149",
+    "Assets/Resources/Prefabs/BuildingPrefabs/BuildersGuild/level40.prefab": "1779692884000000000_4149",
+    "Assets/Resources/Prefabs/BuildingPrefabs/BuildersGuild/level5.prefab": "1779692884000000000_6343",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Butcher/level2.prefab": "1779692884000000000_7066",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Butcher/level20.prefab": "1779692884000000000_7087",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Butcher/level5.prefab": "1779692884000000000_7086",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Chickenstall/level10.prefab": "1779692884000000000_7633",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Chickenstall/level20.prefab": "1779692884000000000_6392",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/apple1.prefab": "1779692884000000000_2655",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/apple2.prefab": "1779692884000000000_2655",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/apple3.prefab": "1779692884000000000_2655",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/grape1.prefab": "1779692884000000000_2650",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/grape2.prefab": "1779692884000000000_2650",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/grape3.prefab": "1779692884000000000_2650",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/hop1.prefab": "1779692884000000000_2648",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/hop2.prefab": "1779692884000000000_2648",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/hop3.prefab": "1779692884000000000_2648",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/pear1.prefab": "1779692884000000000_2654",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/pear2.prefab": "1779692884000000000_2654",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/pear3.prefab": "1779692884000000000_2654",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/wheat1.prefab": "1779692884000000000_2653",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/wheat2.prefab": "1779692884000000000_2653",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/wheat3.prefab": "1779692884000000000_2653",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/level1.prefab": "1779692884000000000_7363",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/level10.prefab": "1779692884000000000_7364",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/level30.prefab": "1779692884000000000_7364",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/level5.prefab": "1779692884000000000_7363",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Forge/level15.prefab": "1779692884000000000_6286",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Forge/level25.prefab": "1779692884000000000_4169",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Forge/level40.prefab": "1779692884000000000_4169",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Forge/level5.prefab": "1779692884000000000_6285",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Forge/level60.prefab": "1779692884000000000_6286",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Mill/level10.prefab": "1779692884000000000_7928",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Mill/level2.prefab": "1779692884000000000_7929",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Mill/level20.prefab": "1779692884000000000_7930",
+    "Assets/Resources/Prefabs/BuildingPrefabs/PopUpCollectItem.prefab": "1779692884000000000_10183",
+    "Assets/Resources/Prefabs/BuildingPrefabs/ResourceContainerBox.prefab": "1779692884000000000_2893",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Sawmill/level1.prefab": "1779692884000000000_8537",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Sawmill/level20.prefab": "1779692884000000000_7092",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Sawmill/level5.prefab": "1779692884000000000_7092",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Tailor/level30.prefab": "1779692884000000000_6165",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Tailor/level5.prefab": "1779692884000000000_6164",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Tailor/level70.prefab": "1779692884000000000_6165",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Tanner/level25.prefab": "1779692884000000000_6206",
+    "Assets/Resources/Prefabs/BuildingPrefabs/Tanner/level5.prefab": "1779692884000000000_6180",
+    "Assets/Resources/Prefabs/BuildingPrefabs/bowmaker/level25.prefab": "1779692884000000000_5941",
+    "Assets/Resources/Prefabs/BuildingPrefabs/bowmaker/level40.prefab": "1779692884000000000_5941",
+    "Assets/Resources/Prefabs/BuildingPrefabs/bowmaker/level5.prefab": "1779692884000000000_5940",
+    "Assets/Resources/Prefabs/BuildingPrefabs/church/level60.prefab": "1779692884000000000_5941",
+    "Assets/Resources/Prefabs/BuildingPrefabs/church/level70.prefab": "1779692884000000000_5941",
+    "Assets/Resources/Prefabs/BuildingPrefabs/claypit/level1.prefab": "1779692884000000000_7120",
+    "Assets/Resources/Prefabs/BuildingPrefabs/claypit/level20.prefab": "1779692884000000000_7121",
+    "Assets/Resources/Prefabs/BuildingPrefabs/claypit/level40.prefab": "1779692884000000000_7121",
+    "Assets/Resources/Prefabs/BuildingPrefabs/claypit/level60.prefab": "1779692884000000000_7121",
+    "Assets/Resources/Prefabs/BuildingPrefabs/cowstall/level25.prefab": "1779692884000000000_6397",
+    "Assets/Resources/Prefabs/BuildingPrefabs/cowstall/level5.prefab": "1779692884000000000_6396",
+    "Assets/Resources/Prefabs/BuildingPrefabs/dairy/level30.prefab": "1779692884000000000_5941",
+    "Assets/Resources/Prefabs/BuildingPrefabs/dairy/level45.prefab": "1779692884000000000_5941",
+    "Assets/Resources/Prefabs/BuildingPrefabs/dairy/level60.prefab": "1779692884000000000_5941",
+    "Assets/Resources/Prefabs/BuildingPrefabs/fisher/level1.prefab": "1779692884000000000_5939",
+    "Assets/Resources/Prefabs/BuildingPrefabs/fisher/level20.prefab": "1779692884000000000_5941",
+    "Assets/Resources/Prefabs/BuildingPrefabs/fisher/level40.prefab": "1779692884000000000_5941",
+    "Assets/Resources/Prefabs/BuildingPrefabs/fisher/level60.prefab": "1779692884000000000_5941",
+    "Assets/Resources/Prefabs/BuildingPrefabs/furnace/level15.prefab": "1779692884000000000_7925",
+    "Assets/Resources/Prefabs/BuildingPrefabs/furnace/level30.prefab": "1779692884000000000_7925",
+    "Assets/Resources/Prefabs/BuildingPrefabs/furnace/level4.prefab": "1779692884000000000_7924",
+    "Assets/Resources/Prefabs/BuildingPrefabs/mine/level1.prefab": "1779692884000000000_7125",
+    "Assets/Resources/Prefabs/BuildingPrefabs/mine/level10.prefab": "1779692884000000000_7126",
+    "Assets/Resources/Prefabs/BuildingPrefabs/mine/level20.prefab": "1779692884000000000_7126",
+    "Assets/Resources/Prefabs/BuildingPrefabs/mine/level40.prefab": "1779692884000000000_7126",
+    "Assets/Resources/Prefabs/BuildingPrefabs/monastery/level25.prefab": "1779692884000000000_5469",
+    "Assets/Resources/Prefabs/BuildingPrefabs/monastery/level40.prefab": "1779692884000000000_5469",
+    "Assets/Resources/Prefabs/BuildingPrefabs/monastery/level50.prefab": "1779692884000000000_5469",
+    "Assets/Resources/Prefabs/BuildingPrefabs/pigstall/level20.prefab": "1779692884000000000_5760",
+    "Assets/Resources/Prefabs/BuildingPrefabs/pigstall/level40.prefab": "1779692884000000000_5757",
+    "Assets/Resources/Prefabs/BuildingPrefabs/pottery/level25.prefab": "1779692884000000000_7054",
+    "Assets/Resources/Prefabs/BuildingPrefabs/pottery/level50.prefab": "1779692884000000000_7054",
+    "Assets/Resources/Prefabs/BuildingPrefabs/pottery/level60.prefab": "1779692884000000000_7053",
+    "Assets/Resources/Prefabs/BuildingPrefabs/quarry/level1.prefab": "1779692884000000000_6387",
+    "Assets/Resources/Prefabs/BuildingPrefabs/quarry/level10.prefab": "1779692884000000000_6388",
+    "Assets/Resources/Prefabs/BuildingPrefabs/quarry/level20.prefab": "1779692884000000000_6388",
+    "Assets/Resources/Prefabs/BuildingPrefabs/quarry/level40.prefab": "1779692884000000000_6388",
+    "Assets/Resources/Prefabs/BuildingPrefabs/sheepstall/level5.prefab": "1779692884000000000_7117",
+    "Assets/Resources/Prefabs/BuildingPrefabs/sheepstall/level50.prefab": "1779692884000000000_7118",
+    "Assets/Resources/Prefabs/BuildingPrefabs/sheepstall/level50old.prefab": "1779692884000000000_5773",
+    "Assets/Resources/Prefabs/BuildingPrefabs/sheepstall/level5old.prefab": "1779692884000000000_6375",
+    "Assets/Resources/Prefabs/BuildingPrefabs/stonemason/level20.prefab": "1779692884000000000_6220",
+    "Assets/Resources/Prefabs/BuildingPrefabs/stonemason/level3.prefab": "1779692884000000000_6253",
+    "Assets/Resources/Prefabs/BuildingPrefabs/stonemason/level40.prefab": "1779692884000000000_6220",
+    "Assets/Resources/Prefabs/BuildingPrefabs/woodcutter/level1.prefab": "1779692884000000000_5042",
+    "Assets/Resources/Prefabs/BuildingPrefabs/woodcutter/level10.prefab": "1779692884000000000_5043",
+    "Assets/Resources/Prefabs/BuildingPrefabs/woodcutter/level20.prefab": "1779692884000000000_5043",
+    "Assets/Resources/Prefabs/BuildingPrefabs/woodcutter/level40.prefab": "1779692884000000000_5043",
+    "Assets/Resources/Prefabs/BuildingPrefabs/woodcutter/level5.prefab": "1779692884000000000_5042",
+    "Assets/Resources/Prefabs/DefensePrefabs/ButtonDefenseBuilding.prefab": "1779692884000000000_16007",
+    "Assets/Resources/Prefabs/DefensePrefabs/DefenseBuildingTilePalette.prefab": "1779692884000000000_6509",
+    "Assets/Resources/Prefabs/DefensePrefabs/Moat.prefab": "1779692884000000000_3934",
+    "Assets/Resources/Prefabs/DefensePrefabs/MudPit.prefab": "1779692884000000000_3913",
+    "Assets/Resources/Prefabs/DefensePrefabs/Trench.prefab": "1779692884000000000_3913",
+    "Assets/Resources/Prefabs/DefensePrefabs/swordsmanoutpost.prefab": "1779692884000000000_7936",
+    "Assets/Resources/Prefabs/DefensePrefabs/trunktrap.prefab": "1779692884000000000_5879",
+    "Assets/Resources/Prefabs/EnvironmentPrefabs/Tree.prefab": "1779692884000000000_2931",
+    "Assets/Resources/Prefabs/Loading/CameraRig.prefab": "1779692884000000000_6251",
+    "Assets/Resources/Prefabs/Loading/LoadingManager.prefab": "1779692884000000000_1426",
+    "Assets/Resources/Prefabs/Loading/TransitionClouds.prefab": "1779692884000000000_10880",
+    "Assets/Resources/Prefabs/NaturePrefabs/animals/chicken/prefab.prefab": "1779692884000000000_6533",
+    "Assets/Resources/Prefabs/NaturePrefabs/animals/cow/prefab.prefab": "1779692884000000000_5428",
+    "Assets/Resources/Prefabs/NaturePrefabs/animals/sheep/prefab.prefab": "1779692884000000000_5446",
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/ButtonPrefabItemRound.prefab": "1779692884000000000_18564",
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/CollectBuildings/CanvasCollectBuildings.prefab": "1779692884000000000_45295",
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/Headline.prefab": "1779692884000000000_42230",
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/ImageCost.prefab": "1779692884000000000_10805",
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/ImageInfoBoxUpgradeData.prefab": "1779692884000000000_82624",
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/ProductionBuildings/Production/CanvasProductionBuildingProductions.prefab": "1779692884000000000_68224",
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/ProductionBuildings/ProductionResources/CanvasProductionBuildingsResources.prefab": "1779692884000000000_61884",
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/StallBuildings/CanvasStallBuildings.prefab": "1779692884000000000_81044",
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/StallBuildings/ImagePopupMenuBuyAnimal.prefab": "1779692884000000000_35833",
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/StallBuildings/PopUpFeedAnimal.prefab": "1779692884000000000_11780",
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/UpgradeBuildingMenu/ContainerUpgradeArsenal.prefab": "1779692884000000000_54075",
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/UpgradeBuildingMenu/ImageUpgradeOptions.prefab": "1779692884000000000_20281",
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/UpgradeDataLine.prefab": "1779692884000000000_27005",
+    "Assets/Resources/Prefabs/UIPrefabs/CastleUI/CanvasCastle.prefab": "1779692884000000000_56092",
+    "Assets/Resources/Prefabs/UIPrefabs/CastleUI/EnemyUI/CanvasEnemySearch.prefab": "1779692884000000000_45078",
+    "Assets/Resources/Prefabs/UIPrefabs/CastleUI/EnemyUI/EntryEnemyPlayer.prefab": "1779692884000000000_44781",
+    "Assets/Resources/Prefabs/UIPrefabs/CastleUI/ReplayUI/CanvasCombatLog.prefab": "1779692884000000000_28534",
+    "Assets/Resources/Prefabs/UIPrefabs/CollectBuildingMenu/PopUpCollectedItemsUI.prefab": "1779692884000000000_8308",
+    "Assets/Resources/Prefabs/UIPrefabs/CombatUI/CanvasCombatResult.prefab": "1779692884000000000_31780",
+    "Assets/Resources/Prefabs/UIPrefabs/CombatUI/ImageIconMaterial_Unit.prefab": "1779692884000000000_9981",
+    "Assets/Resources/Prefabs/UIPrefabs/ConstructionMenu/BuildingMenuPage.prefab": "1779692884000000000_36981",
+    "Assets/Resources/Prefabs/UIPrefabs/ConstructionMenu/CanvasBuild.prefab": "1779692884000000000_27395",
+    "Assets/Resources/Prefabs/UIPrefabs/DefenseMenu/CanvasDefenseBuildings.prefab": "1779692884000000000_25015",
+    "Assets/Resources/Prefabs/UIPrefabs/DefenseMenu/ImageContainerButtons.prefab": "1779692884000000000_10550",
+    "Assets/Resources/Prefabs/UIPrefabs/ErrorUIs/CanvasError.prefab": "1779692884000000000_7450",
+    "Assets/Resources/Prefabs/UIPrefabs/MainMap/CanvasMainMap.prefab": "1779692884000000000_40363",
+    "Assets/Resources/Prefabs/UIPrefabs/MainMap/CanvasPergamentFade.prefab": "1779692884000000000_13552",
+    "Assets/Resources/Prefabs/UIPrefabs/MainMap/SliderLoading.prefab": "1779692884000000000_10580",
+    "Assets/Resources/Prefabs/UIPrefabs/MarketMenu/Buy/ButtonItemToBuy.prefab": "1779692884000000000_13278",
+    "Assets/Resources/Prefabs/UIPrefabs/MarketMenu/Buy/ImageContainerBuy.prefab": "1779692884000000000_34800",
+    "Assets/Resources/Prefabs/UIPrefabs/MarketMenu/Buy/ImageItemBuyContainer.prefab": "1779692884000000000_23093",
+    "Assets/Resources/Prefabs/UIPrefabs/MarketMenu/CanvasMarket.prefab": "1779692884000000000_187556",
+    "Assets/Resources/Prefabs/UIPrefabs/MarketMenu/Quests/ButtonQuestbox.prefab": "1779692884000000000_11177",
+    "Assets/Resources/Prefabs/UIPrefabs/MarketMenu/Quests/ImageContentContainerQuestResources.prefab": "1779692884000000000_6730",
+    "Assets/Resources/Prefabs/UIPrefabs/MarketMenu/Sell/ButtonItemToSell.prefab": "1779692884000000000_25314",
+    "Assets/Resources/Prefabs/UIPrefabs/MarketMenu/Sell/PrefabSellItemSelect.prefab": "1779692884000000000_10962",
+    "Assets/Resources/Prefabs/UIPrefabs/NewGameUI/CanvasNewGame.prefab": "1779692884000000000_97132",
+    "Assets/Resources/Prefabs/UIPrefabs/NoConnectionUI/CanvasLoading.prefab": "1779692884000000000_9153",
+    "Assets/Resources/Prefabs/UIPrefabs/NoConnectionUI/CanvasNoConnection.prefab": "1779692884000000000_12895",
+    "Assets/Resources/Prefabs/UIPrefabs/OverlayCanvas/CanvasOverlay.prefab": "1779692884000000000_86839",
+    "Assets/Resources/Prefabs/UIPrefabs/OverlayCanvas/CanvasOverlayAttack.prefab": "1779692884000000000_27179",
+    "Assets/Resources/Prefabs/UIPrefabs/OverlayCanvas/ChatPopUp/ChatMessage.prefab": "1779692884000000000_28686",
+    "Assets/Resources/Prefabs/UIPrefabs/OverlayCanvas/ChatPopUp/ImageChatPopup.prefab": "1779692884000000000_87790",
+    "Assets/Resources/Prefabs/UIPrefabs/OverlayCanvas/PopUpButtonMenu/ButtonPopUp.prefab": "1779692884000000000_7703",
+    "Assets/Resources/Prefabs/UIPrefabs/OverlayCanvas/PopUpButtonMenu/CanvasButtonPopUp.prefab": "1779692884000000000_6473",
+    "Assets/Resources/Prefabs/UIPrefabs/QuestUI/CanvasQuests.prefab": "1779692884000000000_40187",
+    "Assets/Resources/Prefabs/UIPrefabs/QuestUI/ImageQuest.prefab": "1779692884000000000_41429",
+    "Assets/Resources/Prefabs/UIPrefabs/QuestUI/ImageQuestItem.prefab": "1779692884000000000_17550",
+    "Assets/Resources/Prefabs/UIPrefabs/ReplayUI/CanvasCombatReplay.prefab": "1779692884000000000_57725",
+    "Assets/Resources/Prefabs/UIPrefabs/SettingsUI/CanvasSettings.prefab": "1779692884000000000_167096",
+    "Assets/Resources/Prefabs/UIPrefabs/SettingsUI/ImagePopUpLogin.prefab": "1779692884000000000_79802",
+    "Assets/Resources/Prefabs/UIPrefabs/SettingsUI/ImagePopUpRegister.prefab": "1779692884000000000_88334",
+    "Assets/Resources/Prefabs/UIPrefabs/SocialMenu/ButtonFriendEntry.prefab": "1779692884000000000_12755",
+    "Assets/Resources/Prefabs/UIPrefabs/SocialMenu/CanvasCreateProfilePicture.prefab": "1779692884000000000_27506",
+    "Assets/Resources/Prefabs/UIPrefabs/SocialMenu/CanvasSocial.prefab": "1779692884000000000_183119",
+    "Assets/Resources/Prefabs/UIPrefabs/SocialMenu/ImagePopUpFriendActions.prefab": "1779692884000000000_50209",
+    "Assets/Resources/Prefabs/UIPrefabs/SocialMenu/PlayerPreviewFriendRequest.prefab": "1779692884000000000_15958",
+    "Assets/Resources/Prefabs/UIPrefabs/SocialMenu/PlayerPreviewSearch.prefab": "1779692884000000000_12679",
+    "Assets/Resources/Prefabs/UIPrefabs/StockMenu/CanvasStock.prefab": "1779692884000000000_29912",
+    "Assets/Resources/Prefabs/UIPrefabs/StockMenu/StockItemContainer.prefab": "1779692884000000000_12809",
+    "Assets/Resources/Prefabs/UIPrefabs/StockMenu/StockItemImagePrefab.prefab": "1779692884000000000_9117",
+    "Assets/Resources/Prefabs/UIPrefabs/TreeUI/CanvasTree.prefab": "1779692884000000000_16891",
+    "Assets/Resources/Prefabs/UIPrefabs/TreeUI/CanvasUpgradeTree.prefab": "1779692884000000000_16770",
+    "Assets/Resources/Prefabs/UIPrefabs/TreeUI/Research/ResearchNodeImagePrefab.prefab": "1779692884000000000_18850",
+    "Assets/Resources/Prefabs/UIPrefabs/TutorialUI/CanvasTutorial.prefab": "1779692884000000000_29627",
+    "Assets/Resources/Prefabs/UIPrefabs/TutorialUI/ImagePopUpTutorial.prefab": "1779692884000000000_14673",
+    "Assets/Resources/Prefabs/UnitPrefabs/ButtonUnits.prefab": "1779692884000000000_7669",
+    "Assets/Resources/Prefabs/UnitPrefabs/CanvasHealthbar.prefab": "1779692884000000000_12320",
+    "Assets/Resources/Prefabs/UnitPrefabs/archer.prefab": "1779692884000000000_12510",
+    "Assets/Resources/Prefabs/UnitPrefabs/default.prefab": "1779692884000000000_6427",
+    "Assets/Resources/Prefabs/UnitPrefabs/defaultUnit.prefab": "1779692884000000000_7013",
+    "Assets/Resources/Prefabs/UnitPrefabs/particle.prefab": "1779692884000000000_236080"
+  },
+  "meta_mod_times": {
+    "Assets/Resources/Prefabs/AttackPrefabs/ButtonUnit.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Bakery/level10.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Bakery/level2.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Bakery/level25.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Bakery/level5.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Barracks/level15.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Barracks/level30.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Barracks/level45.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Barracks/level5.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Barracks/level65.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Beekeeper/level20.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Beekeeper/level30.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/BuildersGuild/level20.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/BuildersGuild/level40.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/BuildersGuild/level5.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Butcher/level2.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Butcher/level20.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Butcher/level5.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Chickenstall/level10.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Chickenstall/level20.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/apple1.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/apple2.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/apple3.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/grape1.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/grape2.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/grape3.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/hop1.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/hop2.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/hop3.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/pear1.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/pear2.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/pear3.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/wheat1.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/wheat2.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/wheat3.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/level1.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/level10.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/level30.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Farm/level5.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Forge/level15.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Forge/level25.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Forge/level40.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Forge/level5.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Forge/level60.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Mill/level10.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Mill/level2.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Mill/level20.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/PopUpCollectItem.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/ResourceContainerBox.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Sawmill/level1.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Sawmill/level20.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Sawmill/level5.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Tailor/level30.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Tailor/level5.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Tailor/level70.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Tanner/level25.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/Tanner/level5.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/bowmaker/level25.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/bowmaker/level40.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/bowmaker/level5.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/church/level60.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/church/level70.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/claypit/level1.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/claypit/level20.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/claypit/level40.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/claypit/level60.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/cowstall/level25.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/cowstall/level5.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/dairy/level30.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/dairy/level45.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/dairy/level60.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/fisher/level1.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/fisher/level20.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/fisher/level40.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/fisher/level60.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/furnace/level15.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/furnace/level30.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/furnace/level4.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/mine/level1.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/mine/level10.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/mine/level20.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/mine/level40.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/monastery/level25.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/monastery/level40.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/monastery/level50.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/pigstall/level20.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/pigstall/level40.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/pottery/level25.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/pottery/level50.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/pottery/level60.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/quarry/level1.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/quarry/level10.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/quarry/level20.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/quarry/level40.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/sheepstall/level5.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/sheepstall/level50.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/sheepstall/level50old.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/sheepstall/level5old.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/stonemason/level20.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/stonemason/level3.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/stonemason/level40.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/woodcutter/level1.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/woodcutter/level10.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/woodcutter/level20.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/woodcutter/level40.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/BuildingPrefabs/woodcutter/level5.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/DefensePrefabs/ButtonDefenseBuilding.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/DefensePrefabs/DefenseBuildingTilePalette.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/DefensePrefabs/Moat.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/DefensePrefabs/MudPit.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/DefensePrefabs/Trench.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/DefensePrefabs/swordsmanoutpost.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/DefensePrefabs/trunktrap.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/EnvironmentPrefabs/Tree.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/EnvironmentPrefabs/wall_bend_height.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/EnvironmentPrefabs/wall_bend_width.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/EnvironmentPrefabs/wall_edge.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/EnvironmentPrefabs/wall_straight.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/Loading/CameraRig.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/Loading/LoadingManager.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/Loading/TransitionClouds.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/NaturePrefabs/animals/chicken/prefab.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/NaturePrefabs/animals/cow/prefab.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/NaturePrefabs/animals/sheep/prefab.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/ButtonPrefabItemRound.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/CollectBuildings/CanvasCollectBuildings.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/Headline.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/ImageCost.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/ImageInfoBoxUpgradeData.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/ProductionBuildings/Production/CanvasProductionBuildingProductions.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/ProductionBuildings/ProductionResources/CanvasProductionBuildingsResources.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/StallBuildings/CanvasStallBuildings.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/StallBuildings/ImagePopupMenuBuyAnimal.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/StallBuildings/PopUpFeedAnimal.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/UpgradeBuildingMenu/ContainerUpgradeArsenal.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/UpgradeBuildingMenu/ImageUpgradeOptions.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/BuildingUIs/UpgradeDataLine.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/CastleUI/CanvasCastle.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/CastleUI/EnemyUI/CanvasEnemySearch.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/CastleUI/EnemyUI/EntryEnemyPlayer.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/CastleUI/ReplayUI/CanvasCombatLog.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/CollectBuildingMenu/PopUpCollectedItemsUI.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/CombatUI/CanvasCombatResult.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/CombatUI/ImageIconMaterial_Unit.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/ConstructionMenu/BuildingMenuPage.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/ConstructionMenu/CanvasBuild.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/DefenseMenu/CanvasDefenseBuildings.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/DefenseMenu/ImageContainerButtons.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/ErrorUIs/CanvasError.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/MainMap/CanvasMainMap.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/MainMap/CanvasPergamentFade.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/MainMap/SliderLoading.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/MarketMenu/Buy/ButtonItemToBuy.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/MarketMenu/Buy/ImageContainerBuy.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/MarketMenu/Buy/ImageItemBuyContainer.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/MarketMenu/CanvasMarket.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/MarketMenu/Quests/ButtonQuestbox.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/MarketMenu/Quests/ImageContentContainerQuestResources.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/MarketMenu/Sell/ButtonItemToSell.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/MarketMenu/Sell/PrefabSellItemSelect.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/NewGameUI/CanvasNewGame.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/NoConnectionUI/CanvasLoading.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/NoConnectionUI/CanvasNoConnection.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/OverlayCanvas/CanvasOverlay.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/OverlayCanvas/CanvasOverlayAttack.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/OverlayCanvas/ChatPopUp/ChatMessage.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/OverlayCanvas/ChatPopUp/ImageChatPopup.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/OverlayCanvas/PopUpButtonMenu/ButtonPopUp.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/OverlayCanvas/PopUpButtonMenu/CanvasButtonPopUp.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/QuestUI/CanvasQuests.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/QuestUI/ImageQuest.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/QuestUI/ImageQuestItem.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/ReplayUI/CanvasCombatReplay.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/SettingsUI/CanvasSettings.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/SettingsUI/ImagePopUpLogin.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/SettingsUI/ImagePopUpRegister.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/SocialMenu/ButtonFriendEntry.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/SocialMenu/CanvasCreateProfilePicture.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/SocialMenu/CanvasSocial.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/SocialMenu/ImagePopUpFriendActions.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/SocialMenu/PlayerPreviewFriendRequest.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/SocialMenu/PlayerPreviewSearch.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/StockMenu/CanvasStock.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/StockMenu/StockItemContainer.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/StockMenu/StockItemImagePrefab.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/TreeUI/CanvasTree.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/TreeUI/CanvasUpgradeTree.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/TreeUI/Research/ResearchNodeImagePrefab.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/TutorialUI/CanvasTutorial.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UIPrefabs/TutorialUI/ImagePopUpTutorial.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UnitPrefabs/ButtonUnits.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UnitPrefabs/CanvasHealthbar.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UnitPrefabs/archer.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UnitPrefabs/arrow.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UnitPrefabs/default.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UnitPrefabs/defaultUnit.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UnitPrefabs/knight.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UnitPrefabs/longswordknight.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UnitPrefabs/particle.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UnitPrefabs/pawn.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UnitPrefabs/slave.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UnitPrefabs/spearman.prefab.meta": 1779692884000000000,
+    "Assets/Resources/Prefabs/UnitPrefabs/swordsman.prefab.meta": 1779692884000000000,
+    "Assets/Scripts/Billboard.cs.meta": 1779692884000000000,
+    "Assets/Scripts/Button/CustomButtons.cs.meta": 1779692884000000000,
+    "Assets/Scripts/Button/FixScrollRect.cs.meta": 1779692884000000000,
+    "Assets/Scripts/Button/SettingsButton.cs.meta": 1779692884000000000,
+    "Assets/Scripts/Button/SwitchLVL.cs.meta": 1779692884000000000,
+    "Assets/Scripts/Button/TimeCounter.cs.meta": 1779692884000000000,
+    "Assets/Scripts/ButtonFunctionMailReg.cs.meta": 1779692884000000000,
+    "Assets/Scripts/ChangeTerrainHeight.cs.meta": 1779692884000000000,
+    "Assets/Scripts/DynamicGridSize.cs.meta": 1779692884000000000,
+    "Assets/Scripts/ErrorHandler.cs.meta": 1779692884000000000,
+    "Assets/Scripts/GridViewController.cs.meta": 1779692884000000000,
+    "Assets/Scripts/InstantiateObjects.cs.meta": 1779692884000000000,
+    "Assets/Scripts/LevelLoader.cs.meta": 1779692884000000000,
+    "Assets/Scripts/LightMappingForPrefabs/LightProbeRuntime.cs.meta": 1779692884000000000,
+    "Assets/Scripts/LightMappingForPrefabs/PrefabLightmapData.cs.meta": 1779692884000000000,
+    "Assets/Scripts/LoadMainMap.cs.meta": 1779692884000000000,
+    "Assets/Scripts/LoadingManager.cs.meta": 1779692884000000000,
+    "Assets/Scripts/LoadingWipeAnimation.cs.meta": 1779692884000000000,
+    "Assets/Scripts/MapDetailController.cs.meta": 1779692884000000000,
+    "Assets/Scripts/MusicTransition.cs.meta": 1779692884000000000,
+    "Assets/Scripts/SaveingSystem/Serialization/PlayerData.cs.meta": 1779692884000000000,
+    "Assets/Scripts/SaveingSystem/Serialization/SaveSystem.cs.meta": 1779692884000000000,
+    "Assets/Scripts/ScaleUIElementToParentWidth.cs.meta": 1779692884000000000,
+    "Assets/Scripts/ScrollTexture.cs.meta": 1779692884000000000,
+    "Assets/Scripts/TESTButtonToProfPic.cs.meta": 1779692884000000000,
+    "Assets/Scripts/test_syntax.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Camera/CameraHandler.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Data/Cache/GameDataCache.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Data/Cache/PlayerDataCache.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Data/Cache/TranslationCache.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Data/Managers/BuildingArsenalManager.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Data/Managers/InventoryManager.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Data/Models/Core/Market.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Data/Models/Core/Quest.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Data/Models/Core/Stack.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Data/Models/Items/Item.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Data/Models/Items/ItemGroup.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/GameObjects/TrashHandler.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Helper/Buttons/ButtonHoldHandler.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Helper/ChatHandler.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Helper/CoroutineWithData.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Helper/EmissionHelper.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Helper/HierarchyHelper.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Helper/Logging.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Helper/ScrollHelper.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Helper/WaitForUIButtons.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Interaction/Attack/AttackRadius.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Interaction/Attack/Data/UnitData.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Interaction/Attack/FireProjectiles.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Interaction/Attack/IntegrationMethods.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Interaction/Attack/ObstacleHandler.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Interaction/Attack/ParticleEffect.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Interaction/Attack/Projectile/MoveProjectile.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Interaction/Attack/Projectile/ProjectileData.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Interaction/Attack/ProjectilePhysics.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Interaction/Attack/Units/UnitHandler.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Interaction/CheckCollider.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Interaction/Defense/DefenseBuildingSystem.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Network/Chat/SignalRChatClient.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Network/Conn.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Network/Core/ApiClient.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Network/Core/ApiException.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Network/Core/TokenManager.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Network/Services/AuthenticationService.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Network/Services/BuildingService.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Network/Services/CombatService.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Network/Services/DefenseService.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Network/Services/GameDataService.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Network/Services/MarketService.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Network/Services/ProductionService.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Network/Services/ResearchService.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Network/Services/SocialService.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Objects/Classes.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Objects/CombatQueue.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Objects/Objects.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Objects/Social.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Objects/Translation.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Shared/UserData.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/UI/Buildings/Quest/QuestItem/QuestContainer.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/UI/Buildings/Quest/QuestItem/QuestItem.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/UI/Buildings/Quest/QuestPopup.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/UI/Chat/ChatMessageUI.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/UI/Chat/ChatUI.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/UI/Defense/DefenseButtonDragger.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/UI/Defense/DefensePlacementController.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/UI/General/CanvasOverlay.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/UI/General/NewGameUI.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/UI/HealthBar.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/UI/Items/CompareUI.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/UI/Map/MainMapUI.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/UI/PopUpWindow.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/UI/Popups/BuyAnimals.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/UI/Popups/CompareStats.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/UI/Settings/Authentication/Authentication.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/UI/Settings/SettingsUI.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/UI/Social/FriendRequestUI.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/UI/Social/SocialUI.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/UI/SwitchUI.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/UI/Tutorial/Tutorial.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Utils/Funcs.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Utils/Game.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Utils/Map.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Utils/PromiseExtensions.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Utils/Tags.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Utils/UI.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v1/Utils/Vars.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/General/Primary/UI/Build_Canvas_Script.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/General/Realm/Game/Realm_Object_Script.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/General/Realm/Game/lib/AnimalStallManager.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/General/Realm/UI/Collect_Canvas_Script.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/General/Realm/UI/Prod_Canvas_Script.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/General/Realm/UI/Stall_Canvas_Script.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/General/UI/ResearchUI_Canvas_Script.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/General/UI/TreeUI_Canvas_Script.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/General/lib/BuildingUIHelper.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/General/lib/GKOBJECT.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/General/lib/GKUI.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/General/lib/ItemPopupHelper.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/General/lib/LevelIcon.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/General/lib/UIHelper.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/General/lib/UILineRenderer.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/Scene/Defense/Edit/Game/Defense_Object_Script.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/Scene/Defense/Edit/UI/Defense_Canvas_Script.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/Scene/Defense/Invasion/UI/Attack_Canvas_Script.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/Scene/Defense/Playback/UI/Replay_Canvas_Script.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/Scene/Social/Castle/Game/Castle_Object_Script.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/Scene/Social/Castle/UI/Castle_Canvas_Script.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/Scene/Social/Castle/UI/EnemySearch/EnemySearch_Canvas_Script.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/Scene/Social/Castle/UI/FightLog/CombatLog_Canvas_Script.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/Scene/Social/Market/Game/Market_Object_Script.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/Scene/Social/Market/UI/Buy/MarketBuy_Canvas_Script.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/Scene/Social/Market/UI/Market_Canvas_Script.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/Scene/Social/Market/UI/Sell/MarketSell_Canvas_Script.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/AttackPrefabs/ButtonUnit.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Bakery/Level10.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Bakery/Level2.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Bakery/Level25.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Bakery/Level5.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Barracks/Level15.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Barracks/Level30.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Barracks/Level45.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Barracks/Level5.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Barracks/Level65.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Beekeeper/Level20.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Beekeeper/Level30.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Bowmaker/Level25.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Bowmaker/Level40.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Bowmaker/Level5.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/BuildersGuild/Level20.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/BuildersGuild/Level40.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/BuildersGuild/Level5.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Butcher/Level2.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Butcher/Level20.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Butcher/Level5.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Chickenstall/Level10.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Chickenstall/Level20.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Church/Level60.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Church/Level70.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Claypit/Level1.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Claypit/Level20.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Claypit/Level40.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Claypit/Level60.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Cowstall/Level25.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Cowstall/Level5.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Dairy/Level30.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Dairy/Level45.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Dairy/Level60.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/Apple1.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/Apple2.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/Apple3.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/Grape1.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/Grape2.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/Grape3.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/Hop1.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/Hop2.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/Hop3.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/Pear1.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/Pear2.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/Pear3.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/Wheat1.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/Wheat2.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Farm/CropsPrefabs/Wheat3.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Farm/Level1.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Farm/Level10.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Farm/Level30.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Farm/Level5.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Fisher/Level1.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Fisher/Level20.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Fisher/Level40.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Fisher/Level60.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Forge/Level15.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Forge/Level25.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Forge/Level40.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Forge/Level5.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Forge/Level60.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Furnace/Level15.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Furnace/Level30.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Furnace/Level4.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Mill/Level10.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Mill/Level2.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Mill/Level20.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Mine/Level1.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Mine/Level10.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Mine/Level20.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Mine/Level40.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Monastery/Level25.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Monastery/Level40.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Monastery/Level50.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Pigstall/Level20.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Pigstall/Level40.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/PopUpCollectItem.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Pottery/Level25.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Pottery/Level50.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Pottery/Level60.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Quarry/Level1.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Quarry/Level10.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Quarry/Level20.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Quarry/Level40.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/ResourceContainerBox.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Sawmill/Level1.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Sawmill/Level20.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Sawmill/Level5.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Sheepstall/Level5.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Sheepstall/Level50.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Sheepstall/Level50old.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Sheepstall/Level5old.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Stonemason/Level20.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Stonemason/Level3.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Stonemason/Level40.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Tailor/Level30.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Tailor/Level5.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Tailor/Level70.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Tanner/Level25.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Tanner/Level5.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Woodcutter/Level1.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Woodcutter/Level10.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Woodcutter/Level20.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Woodcutter/Level40.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/BuildingPrefabs/Woodcutter/Level5.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/DefensePrefabs/ButtonDefenseBuilding.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/DefensePrefabs/DefenseBuildingTilePalette.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/DefensePrefabs/Moat.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/DefensePrefabs/MudPit.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/DefensePrefabs/Swordsmanoutpost.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/DefensePrefabs/Trench.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/DefensePrefabs/Trunktrap.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/EnvironmentPrefabs/Tree.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/Loading/CameraRig.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/Loading/LoadingManager.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/Loading/TransitionClouds.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/NaturePrefabs/Animals/Chicken/Prefab.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/NaturePrefabs/Animals/Cow/Prefab.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/NaturePrefabs/Animals/Sheep/Prefab.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/BuildingUIs/ButtonPrefabItemRound.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/BuildingUIs/CollectBuildings/CanvasCollectBuildings.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/BuildingUIs/Headline.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/BuildingUIs/ImageCost.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/BuildingUIs/ImageInfoBoxUpgradeData.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/BuildingUIs/ProductionBuildings/Production/CanvasProductionBuildingProductions.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/BuildingUIs/ProductionBuildings/ProductionResources/CanvasProductionBuildingsResources.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/BuildingUIs/StallBuildings/CanvasStallBuildings.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/BuildingUIs/StallBuildings/ImagePopupMenuBuyAnimal.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/BuildingUIs/StallBuildings/PopUpFeedAnimal.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/BuildingUIs/UpgradeBuildingMenu/ContainerUpgradeArsenal.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/BuildingUIs/UpgradeBuildingMenu/ImageUpgradeOptions.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/BuildingUIs/UpgradeDataLine.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/CastleUI/CanvasCastle.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/CastleUI/EnemyUI/CanvasEnemySearch.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/CastleUI/EnemyUI/EntryEnemyPlayer.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/CastleUI/ReplayUI/CanvasCombatLog.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/CollectBuildingMenu/PopUpCollectedItemsUI.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/CombatUI/CanvasCombatResult.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/CombatUI/ImageIconMaterial_Unit.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/ConstructionMenu/BuildingMenuPage.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/ConstructionMenu/CanvasBuild.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/DefenseMenu/CanvasDefenseBuildings.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/DefenseMenu/ImageContainerButtons.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/ErrorUIs/CanvasError.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/MainMap/CanvasMainMap.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/MainMap/CanvasPergamentFade.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/MainMap/SliderLoading.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/MarketMenu/Buy/ButtonItemToBuy.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/MarketMenu/Buy/ImageContainerBuy.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/MarketMenu/Buy/ImageItemBuyContainer.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/MarketMenu/CanvasMarket.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/MarketMenu/Quests/ButtonQuestbox.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/MarketMenu/Quests/ImageContentContainerQuestResources.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/MarketMenu/Sell/ButtonItemToSell.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/MarketMenu/Sell/PrefabSellItemSelect.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/NewGameUI/CanvasNewGame.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/NoConnectionUI/CanvasLoading.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/NoConnectionUI/CanvasNoConnection.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/OverlayCanvas/CanvasOverlay.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/OverlayCanvas/CanvasOverlayAttack.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/OverlayCanvas/ChatPopUp/ChatMessage.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/OverlayCanvas/ChatPopUp/ImageChatPopup.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/OverlayCanvas/PopUpButtonMenu/ButtonPopUp.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/OverlayCanvas/PopUpButtonMenu/CanvasButtonPopUp.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/QuestUI/CanvasQuests.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/QuestUI/ImageQuest.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/QuestUI/ImageQuestItem.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/ReplayUI/CanvasCombatReplay.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/SettingsUI/CanvasSettings.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/SettingsUI/ImagePopUpLogin.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/SettingsUI/ImagePopUpRegister.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/SocialMenu/ButtonFriendEntry.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/SocialMenu/CanvasCreateProfilePicture.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/SocialMenu/CanvasSocial.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/SocialMenu/ImagePopUpFriendActions.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/SocialMenu/PlayerPreviewFriendRequest.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/SocialMenu/PlayerPreviewSearch.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/StockMenu/CanvasStock.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/StockMenu/StockItemContainer.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/StockMenu/StockItemImagePrefab.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/TreeUI/CanvasTree.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/TreeUI/CanvasUpgradeTree.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/TreeUI/Research/ResearchNodeImagePrefab.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/TutorialUI/CanvasTutorial.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/TutorialUI/ImagePopUpTutorial.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UnitPrefabs/Archer.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UnitPrefabs/ButtonUnits.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UnitPrefabs/CanvasHealthbar.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UnitPrefabs/Default.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UnitPrefabs/DefaultUnit.cs.meta": 1779692884000000000,
+    "Assets/Scripts/v2/UX/generated/Prefabs/UnitPrefabs/Particle.cs.meta": 1779692884000000000
+  }
+}
