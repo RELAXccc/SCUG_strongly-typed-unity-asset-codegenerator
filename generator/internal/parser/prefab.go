@@ -303,10 +303,3 @@ func buildTree(tr *Transform, transforms map[string]*Transform, gos map[string]*
 
 	return node
 }
-ldren, childNode)
-			}
-		}
-	}
-
-	return node
-}
