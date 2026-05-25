@@ -1,0 +1,69 @@
+name: Go Generator CI
+
+on:
+  push:
+    branches: [ "**" ]
+  pull_request:
+    branches: [ "**" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.26.x'
+
+      - name: Cache Go modules
+        uses: actions/cache@v4
+        with:
+          path: ~/go/pkg/mod
+          key: ${{ runner.os }}-go-${{ hashFiles('**/go.mod') }}
+          restore-keys: |
+            ${{ runner.os }}-go-
+
+      - name: Build Generator
+        run: |
+          cd generator
+          go build -v -o scug cmd/scug/main.go
+
+      - name: Run Unit Tests
+        run: |
+          cd generator
+          go test -v ./...
+
+      - name: Execute Generator on TestData
+        run: |
+          cd testdata
+          ../generator/scug
+
+      - name: Verify Generated Output
+        run: |
+          # Verify that files are generated in the correct locations
+          if [ ! -f "testdata/Assets/Scripts/v2/UX/generated/Prefabs/EnvironmentPrefabs/Tree.cs" ]; then
+            echo "Error: Tree.cs not generated"
+            exit 1
+          fi
+          if [ ! -f "testdata/Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/OverlayCanvas/CanvasOverlay.cs" ]; then
+            echo "Error: CanvasOverlay.cs not generated"
+            exit 1
+          fi
+
+          # Basic content check
+          grep "public class Tree" testdata/Assets/Scripts/v2/UX/generated/Prefabs/EnvironmentPrefabs/Tree.cs
+          grep "public class CanvasOverlay" testdata/Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/OverlayCanvas/CanvasOverlay.cs
+
+      - name: Verify Cache Update
+        run: |
+          # Check if the cache file was updated/exists
+          if [ ! -f "testdata/scug_cache.json" ]; then
+            echo "Error: scug_cache.json not found"
+            exit 1
+          fi
+          # Check for specific entries in the cache (e.g., file_hashes for the processed prefabs)
+          grep "Tree.prefab" testdata/scug_cache.json
+          grep "CanvasOverlay.prefab" testdata/scug_cache.json
