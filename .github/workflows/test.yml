@@ -39,23 +39,53 @@ jobs:
       - name: Execute Generator on TestData
         run: |
           cd testdata
+          # Always delete the cache before running for a clean execution
+          rm -f scug_cache.json
           ../generator/scug
 
-      - name: Verify Generated Output
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Install dotnet-script
+        run: dotnet tool install -g dotnet-script
+
+      - name: Verify Generated Output & Syntax
         run: |
           # Verify that files are generated in the correct locations
-          if [ ! -f "testdata/Assets/Scripts/v2/UX/generated/Prefabs/EnvironmentPrefabs/Tree.cs" ]; then
+          TREE_CS="testdata/Assets/Scripts/v2/UX/generated/Prefabs/EnvironmentPrefabs/Tree.cs"
+          OVERLAY_CS="testdata/Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/OverlayCanvas/CanvasOverlay.cs"
+
+          if [ ! -f "$TREE_CS" ]; then
             echo "Error: Tree.cs not generated"
             exit 1
           fi
-          if [ ! -f "testdata/Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/OverlayCanvas/CanvasOverlay.cs" ]; then
+          if [ ! -f "$OVERLAY_CS" ]; then
             echo "Error: CanvasOverlay.cs not generated"
             exit 1
           fi
 
           # Basic content check
-          grep "public class Tree" testdata/Assets/Scripts/v2/UX/generated/Prefabs/EnvironmentPrefabs/Tree.cs
-          grep "public class CanvasOverlay" testdata/Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/OverlayCanvas/CanvasOverlay.cs
+          grep "public class Tree" "$TREE_CS"
+          grep "public class CanvasOverlay" "$OVERLAY_CS"
+
+          # Basic C# Syntax Validation using dotnet-script
+          # We wrap the file in a dummy check to see if it parses correctly
+          echo "Validating C# syntax for generated files..."
+          export PATH="$PATH:$HOME/.dotnet/tools"
+          
+          for f in $(find testdata/Assets/Scripts/v2/UX/generated -name "*.cs"); do
+            echo "Checking $f"
+            # dotnet-script can be used to evaluate if the file is syntactically valid
+            # even if it can't resolve all Unity dependencies.
+            # We use a simple script that references the generated file.
+            echo "#load \"$f\"" > syntax_check.csx
+            if ! dotnet-script syntax_check.csx --dryrun; then
+              echo "Syntax error in $f"
+              exit 1
+            fi
+          done
 
       - name: Verify Cache Update
         run: |
