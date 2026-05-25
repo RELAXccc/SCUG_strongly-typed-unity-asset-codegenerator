@@ -1,0 +1,125 @@
+name: Go Generator CI
+
+on:
+  push:
+    branches: [ "**" ]
+  pull_request:
+    branches: [ "**" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.26.x'
+
+      - name: Cache Go modules
+        uses: actions/cache@v4
+        with:
+          path: ~/go/pkg/mod
+          key: ${{ runner.os }}-go-${{ hashFiles('**/go.mod') }}
+          restore-keys: |
+            ${{ runner.os }}-go-
+
+      - name: Build Generator
+        run: |
+          cd generator
+          go build -v -o scug cmd/scug/main.go
+
+      - name: Run Unit Tests
+        run: |
+          cd generator
+          go test -v ./...
+
+      - name: Execute Generator on TestData
+        run: |
+          cd testdata
+          # Always delete the cache before running for a clean execution
+          rm -f scug_cache.json
+          ../generator/scug
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Install dotnet-script
+        run: dotnet tool install -g dotnet-script
+
+      - name: Verify Generated Output & Syntax
+        run: |
+          # Verify that files are generated in the correct locations
+          TREE_CS="testdata/Assets/Scripts/v2/UX/generated/Prefabs/EnvironmentPrefabs/Tree.cs"
+          OVERLAY_CS="testdata/Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/OverlayCanvas/CanvasOverlay.cs"
+
+          if [ ! -f "$TREE_CS" ]; then
+            echo "Error: Tree.cs not generated"
+            exit 1
+          fi
+          if [ ! -f "$OVERLAY_CS" ]; then
+            echo "Error: CanvasOverlay.cs not generated"
+            exit 1
+          fi
+
+          # Basic content check
+          grep "public class Tree" "$TREE_CS"
+          grep "public class CanvasOverlay" "$OVERLAY_CS"
+
+          # Create a Roslyn-based Syntax Checker using dotnet-script
+          cat << 'EOF' > syntax_checker.csx
+          #r "nuget: Microsoft.CodeAnalysis.CSharp, 4.8.0"
+          using System;
+          using System.IO;
+          using Microsoft.CodeAnalysis;
+          using Microsoft.CodeAnalysis.CSharp;
+
+          string filePath = Args[0];
+          string code = File.ReadAllText(filePath);
+          
+          // ParseText only checks the grammatical structure of the code.
+          // It does NOT try to resolve external references like UnityEngine.
+          SyntaxTree tree = CSharpSyntaxTree.ParseText(code);
+          
+          bool hasErrors = false;
+          foreach (var diagnostic in tree.GetDiagnostics())
+          {
+              if (diagnostic.Severity == DiagnosticSeverity.Error)
+              {
+                  Console.WriteLine($"Syntax Error in {filePath}: {diagnostic.GetMessage()} at line {diagnostic.Location.GetLineSpan().StartLinePosition.Line + 1}");
+                  hasErrors = true;
+              }
+          }
+          
+          Environment.Exit(hasErrors ? 1 : 0);
+          EOF
+
+          echo "Validating C# syntax (ignoring missing references) for generated files..."
+          export PATH="$PATH:$HOME/.dotnet/tools"
+          
+          for f in $(find testdata/Assets/Scripts/v2/UX/generated -name "*.cs"); do
+            echo "Checking syntax: $f"
+            # Pass the file path as an argument to our syntax_checker script
+            dotnet script syntax_checker.csx -- "$f"
+            
+            # If the script exits with code 1, it means syntax errors were found
+            if [ $? -ne 0 ]; then
+              echo "Syntax validation failed for $f"
+              exit 1
+            fi
+          done
+
+      - name: Verify Cache Update
+        run: |
+          # Check if the cache file was updated/exists
+          if [ ! -f "testdata/scug_cache.json" ]; then
+            echo "Error: scug_cache.json not found"
+            exit 1
+          fi
+          # Check for specific entries in the cache (e.g., file_hashes for the processed prefabs)
+          grep "Tree.prefab" testdata/scug_cache.json
+          grep "CanvasOverlay.prefab" testdata/scug_cache.json
