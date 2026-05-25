@@ -70,19 +70,45 @@ jobs:
           grep "public class Tree" "$TREE_CS"
           grep "public class CanvasOverlay" "$OVERLAY_CS"
 
-          # Basic C# Syntax Validation using dotnet-script
-          # We wrap the file in a dummy check to see if it parses correctly
-          echo "Validating C# syntax for generated files..."
+          # Create a Roslyn-based Syntax Checker using dotnet-script
+          cat << 'EOF' > syntax_checker.csx
+          #r "nuget: Microsoft.CodeAnalysis.CSharp, 4.8.0"
+          using System;
+          using System.IO;
+          using Microsoft.CodeAnalysis;
+          using Microsoft.CodeAnalysis.CSharp;
+
+          string filePath = Args[0];
+          string code = File.ReadAllText(filePath);
+          
+          // ParseText only checks the grammatical structure of the code.
+          // It does NOT try to resolve external references like UnityEngine.
+          SyntaxTree tree = CSharpSyntaxTree.ParseText(code);
+          
+          bool hasErrors = false;
+          foreach (var diagnostic in tree.GetDiagnostics())
+          {
+              if (diagnostic.Severity == DiagnosticSeverity.Error)
+              {
+                  Console.WriteLine($"Syntax Error in {filePath}: {diagnostic.GetMessage()} at line {diagnostic.Location.GetLineSpan().StartLinePosition.Line + 1}");
+                  hasErrors = true;
+              }
+          }
+          
+          Environment.Exit(hasErrors ? 1 : 0);
+          EOF
+
+          echo "Validating C# syntax (ignoring missing references) for generated files..."
           export PATH="$PATH:$HOME/.dotnet/tools"
           
           for f in $(find testdata/Assets/Scripts/v2/UX/generated -name "*.cs"); do
-            echo "Checking $f"
-            # dotnet-script can be used to evaluate if the file is syntactically valid
-            # even if it can't resolve all Unity dependencies.
-            # We use a simple script that references the generated file.
-            echo "#load \"$f\"" > syntax_check.csx
-            if ! dotnet-script syntax_check.csx --dryrun; then
-              echo "Syntax error in $f"
+            echo "Checking syntax: $f"
+            # Pass the file path as an argument to our syntax_checker script
+            dotnet script syntax_checker.csx -- "$f"
+            
+            # If the script exits with code 1, it means syntax errors were found
+            if [ $? -ne 0 ]; then
+              echo "Syntax validation failed for $f"
               exit 1
             fi
           done
