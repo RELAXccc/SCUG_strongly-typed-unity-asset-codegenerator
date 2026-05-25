@@ -1,0 +1,25 @@
+# Go
+generator/scug
+generator/scug.exe
+generator/scug_cache.json
+generator/GEMINI.md
+bin/
+obj/
+
+# Unity
+[Aa]ssets/[Ss]cripts/v2/UX/generated/
+[Aa]ssets/Resources/v2/UX/generated/
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+MemoryCaptures/
+UserSettings/
+~*
+*.stackdump
+
+# OS
+.DS_Store
+Thumbs.db
