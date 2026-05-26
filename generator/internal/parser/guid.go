@@ -8,30 +8,27 @@ import (
 	"path"
 	"path/filepath"
 	"regexp"
-	"runtime"
 	"strings"
 	"sync"
 	"sync/atomic"
 
 	"v1m-SCUG/internal/cache"
+	"v1m-SCUG/internal/config"
 	"v1m-SCUG/internal/utils"
 )
 
-func BuildGuidMap(assetsDir string, c *cache.Cache) {
-	projectRoot := filepath.Dir(assetsDir)
-
-	scanDirs := []string{
-		filepath.Join(assetsDir, "Scripts"),
-		filepath.Join(projectRoot, "Library", "PackageCache"),
-		filepath.Join(projectRoot, "Packages"),
+func BuildGuidMap(cfg *config.Config, projectRoot string, c *cache.Cache) {
+	var scanDirs []string
+	for _, dir := range cfg.ScanDirs {
+		scanDirs = append(scanDirs, cfg.GetAbsolutePath(projectRoot, dir))
 	}
 
-	resourcesDir := filepath.Join(assetsDir, "Resources")
+	resourcesDir := cfg.GetAbsolutePath(projectRoot, cfg.ResourcesDir)
 
 	fmt.Printf("Updating GUID Mapping... ")
 	
 	// Create a worker pool for meta file processing
-	numWorkers := runtime.NumCPU()
+	numWorkers := cfg.Workers
 	pathsChan := make(chan string, 100)
 	var wg sync.WaitGroup
 	var updateCount int32

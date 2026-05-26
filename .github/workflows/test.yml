@@ -54,8 +54,8 @@ jobs:
       - name: Verify Generated Output & Syntax
         run: |
           # Verify that files are generated in the correct locations
-          TREE_CS="testdata/Assets/Scripts/v2/UX/generated/Prefabs/EnvironmentPrefabs/Tree.cs"
-          OVERLAY_CS="testdata/Assets/Scripts/v2/UX/generated/Prefabs/UIPrefabs/OverlayCanvas/CanvasOverlay.cs"
+          TREE_CS="testdata/Assets/CustomOutput/Prefabs/EnvironmentPrefabs/Tree.cs"
+          OVERLAY_CS="testdata/Assets/CustomOutput/Prefabs/UIPrefabs/OverlayCanvas/CanvasOverlay.cs"
 
           if [ ! -f "$TREE_CS" ]; then
             echo "Error: Tree.cs not generated"
@@ -101,7 +101,7 @@ jobs:
           echo "Validating C# syntax (ignoring missing references) for generated files..."
           export PATH="$PATH:$HOME/.dotnet/tools"
           
-          for f in $(find testdata/Assets/Scripts/v2/UX/generated -name "*.cs"); do
+          for f in $(find testdata/Assets/CustomOutput -name "*.cs"); do
             echo "Checking syntax: $f"
             # Pass the file path as an argument to our syntax_checker script
             dotnet script syntax_checker.csx -- "$f"

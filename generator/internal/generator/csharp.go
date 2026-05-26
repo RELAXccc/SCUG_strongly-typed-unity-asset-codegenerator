@@ -186,7 +186,7 @@ func generateCSharp(node *parser.Node, namespace, className, resourcePath string
 	return sb.String()
 }
 
-func ProcessPrefabFile(prefabPath, resourcesDir, outputDir string, c *cache.Cache) {
+func ProcessPrefabFile(prefabPath, resourcesDir, outputDir string, c *cache.Cache, disableCache bool) {
 	relPath, _ := filepath.Rel(resourcesDir, prefabPath)
 	slashPath := filepath.ToSlash(relPath)
 	resPath := strings.TrimSuffix(slashPath, ".prefab")
@@ -215,7 +215,7 @@ func ProcessPrefabFile(prefabPath, resourcesDir, outputDir string, c *cache.Cach
 	normalizedOutPath := strings.ToLower(filepath.ToSlash(outFilePath))
 
 	hash := utils.GetFastHash(prefabPath)
-	if c.GetFileHash(prefabPath) == hash {
+	if !disableCache && c.GetFileHash(prefabPath) == hash {
 		if _, err := os.Stat(outFilePath); err == nil {
 			c.MarkFileGenerated(normalizedOutPath)
 			return

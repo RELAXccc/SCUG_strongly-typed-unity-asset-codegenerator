@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
-	"runtime"
 	"strings"
 	"sync"
 	"time"
 
 	"v1m-SCUG/internal/cache"
+	"v1m-SCUG/internal/config"
 	"v1m-SCUG/internal/generator"
 	"v1m-SCUG/internal/parser"
 	"v1m-SCUG/internal/utils"
@@ -30,19 +30,34 @@ func main() {
 	// Calculate project root based on Assets directory location.
 	projectRoot := filepath.Dir(assetsDir)
 
-	// Load persistent cache to speed up subsequent runs.
-	cachePath := "scug_cache.json"
-	c := cache.LoadCache(cachePath)
+	// Load configuration.
+	cfg := config.LoadConfig(projectRoot)
 
-	// Define key directories.
-	resourcesDir := filepath.Join(assetsDir, "Resources")
-	outputDir := filepath.Join(assetsDir, "Scripts", "v2", "UX", "generated")
+	// Resolve cache path. If it's the default, keep it in the current working dir for backwards compatibility.
+	cachePath := cfg.CacheFile
+	if filepath.IsAbs(cachePath) {
+		// already absolute
+	} else if cachePath != "scug_cache.json" {
+		cachePath = cfg.GetAbsolutePath(projectRoot, cachePath)
+	}
+
+	// Load persistent cache to speed up subsequent runs (if not disabled).
+	var c *cache.Cache
+	if !cfg.DisableCache {
+		c = cache.LoadCache(cachePath)
+	} else {
+		c = cache.NewCache() // Use empty cache in memory if disabled
+	}
+
+	// Define key directories based on config.
+	resourcesDir := cfg.GetAbsolutePath(projectRoot, cfg.ResourcesDir)
+	outputDir := cfg.GetAbsolutePath(projectRoot, cfg.OutputDir)
 
 	// Scan Assets for .cs.meta files to resolve Unity GUIDs to C# classes.
-	parser.BuildGuidMap(assetsDir, c)
+	parser.BuildGuidMap(cfg, projectRoot, c)
 
 	// Initialize worker pool for parallel processing of prefabs.
-	numWorkers := runtime.NumCPU()
+	numWorkers := cfg.Workers
 	var wg sync.WaitGroup
 	var mu sync.Mutex
 	count := 0
@@ -66,7 +81,7 @@ func main() {
 						fmt.Printf("Error: File does not exist: %s\n", rawPath)
 						os.Exit(1)
 					}
-					generator.ProcessPrefabFile(fullPath, resourcesDir, outputDir, c)
+					generator.ProcessPrefabFile(fullPath, resourcesDir, outputDir, c, cfg.DisableCache)
 					mu.Lock()
 					count++
 					mu.Unlock()
@@ -80,7 +95,9 @@ func main() {
 		close(pathsChan)
 		wg.Wait()
 
-		c.Save(cachePath)
+		if !cfg.DisableCache {
+			c.Save(cachePath)
+		}
 		fmt.Printf("Done! Processed %d prefabs in %v.\n", count, time.Since(start))
 	} else {
 		// Handle Full Scan Mode (triggered when no arguments are provided).
@@ -103,7 +120,7 @@ func main() {
 			go func() {
 				defer wg.Done()
 				for pathStr := range pathsChan {
-					generator.ProcessPrefabFile(pathStr, resourcesDir, outputDir, c)
+					generator.ProcessPrefabFile(pathStr, resourcesDir, outputDir, c, cfg.DisableCache)
 					mu.Lock()
 					count++
 					mu.Unlock()
@@ -133,8 +150,9 @@ func main() {
 			return nil
 		})
 
-		c.Save(cachePath)
+		if !cfg.DisableCache {
+			c.Save(cachePath)
+		}
 		fmt.Printf("Done! Full scan processed %d prefabs in %v.\n", count, time.Since(start))
 	}
 }
-
