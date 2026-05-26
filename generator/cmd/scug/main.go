@@ -100,6 +100,10 @@ func main() {
 		}
 		fmt.Printf("Done! Processed %d prefabs in %v.\n", count, time.Since(start))
 	} else {
+		generator.GenerateScenes(projectRoot, outputDir)
+		generator.GenerateTags(projectRoot, outputDir)
+		generator.GenerateResources(resourcesDir, outputDir)
+
 		// Handle Full Scan Mode (triggered when no arguments are provided).
 		fmt.Println("No arguments provided. Running full scan...")
 
@@ -141,6 +145,9 @@ func main() {
 				return nil
 			}
 			if strings.HasSuffix(pathStr, ".cs") {
+				if strings.Contains(filepath.ToSlash(pathStr), "/Global/") {
+					return nil
+				}
 				slashPath := strings.ToLower(filepath.ToSlash(pathStr))
 				if !c.IsFileGenerated(slashPath) {
 					fmt.Println("Deleting stale file:", pathStr)

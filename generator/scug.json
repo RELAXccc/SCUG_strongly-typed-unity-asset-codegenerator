@@ -1,0 +1,12 @@
+{
+  "disable_cache": false,
+  "cache_file": "scug_cache.json",
+  "resources_dir": "Assets/Resources",
+  "output_dir": "Assets/Scripts/v2/UX/generated",
+  "scan_dirs": [
+    "Assets/Scripts",
+    "Library/PackageCache",
+    "Packages"
+  ],
+  "workers": 16
+}
