@@ -1,6 +1,6 @@
 # SCUG: Strongly-Typed Unity Asset Codegenerator
 
-![Coverage](https://img.shields.io/badge/Coverage-Unknown-lightgrey)
+![Coverage](https://img.shields.io/badge/Coverage-79.4%25-yellow)
 
 SCUG (Super Cool Unity Generator) is a high-performance, standalone Go tool that bridges the gap between Unity's loosely-typed asset system and C#'s strong-typing requirements. It automatically generates safe, performant C# wrappers for your Prefabs, Scenes, Tags, and Resources.
 
