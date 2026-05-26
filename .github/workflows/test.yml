@@ -6,12 +6,17 @@ on:
   pull_request:
     branches: [ "**" ]
 
+permissions:
+  contents: write
+
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Go
         uses: actions/setup-go@v5
@@ -31,10 +36,51 @@ jobs:
           cd generator
           go build -v -o scug cmd/scug/main.go
 
-      - name: Run Unit Tests
+      - name: Code Quality (go vet)
         run: |
           cd generator
-          go test -v ./...
+          go vet ./...
+
+      - name: Run Unit Tests & Update Coverage Badge
+        run: |
+          cd generator
+          go test -v -coverprofile=coverage.out ./...
+          
+          # Extract overall coverage percentage
+          COVERAGE=$(go tool cover -func=coverage.out | grep total | awk '{print $3}' | tr -d '%')
+          
+          # Determine badge color based on coverage
+          COLOR=$(awk -v cov="$COVERAGE" 'BEGIN {
+            if (cov >= 80) print "brightgreen";
+            else if (cov >= 60) print "yellow";
+            else print "red";
+          }')
+          
+          # Replace the Coverage badge URL in the README
+          sed -i "s|!\[Coverage\].*|![Coverage](https://img.shields.io/badge/Coverage-${COVERAGE}%25-${COLOR})|g" ../README.md
+          
+          # Add coverage details to GitHub Step Summary
+          echo "## Go Test Coverage" >> $GITHUB_STEP_SUMMARY
+          echo "**Total Coverage:** ${COVERAGE}%" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Package/Function | Coverage |" >> $GITHUB_STEP_SUMMARY
+          echo "|---|---|" >> $GITHUB_STEP_SUMMARY
+          go tool cover -func=coverage.out | head -n -1 | awk '{print "| " $1 " | " $3 " |"}' >> $GITHUB_STEP_SUMMARY
+
+      - name: Commit Coverage Badge
+        if: github.event_name == 'push'
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update test coverage badge [skip ci]" && git push)
+
+      - name: Test Cross-Platform Builds
+        run: |
+          cd generator
+          GOOS=windows GOARCH=amd64 go build -o scug_windows.exe cmd/scug/main.go
+          GOOS=darwin GOARCH=arm64 go build -o scug_darwin cmd/scug/main.go
+          GOOS=linux GOARCH=amd64 go build -o scug_linux cmd/scug/main.go
 
       - name: Execute Generator on TestData
         run: |
@@ -56,15 +102,15 @@ jobs:
           # Verify that files are generated in the correct locations
           TREE_CS="testdata/Assets/CustomOutput/Prefabs/EnvironmentPrefabs/Tree.cs"
           OVERLAY_CS="testdata/Assets/CustomOutput/Prefabs/UIPrefabs/OverlayCanvas/CanvasOverlay.cs"
+          MAPS_CS="testdata/Assets/CustomOutput/Global/Map.cs"
+          TAGS_CS="testdata/Assets/CustomOutput/Global/Tags.cs"
+          RES_CS="testdata/Assets/CustomOutput/Global/Res.cs"
 
-          if [ ! -f "$TREE_CS" ]; then
-            echo "Error: Tree.cs not generated"
-            exit 1
-          fi
-          if [ ! -f "$OVERLAY_CS" ]; then
-            echo "Error: CanvasOverlay.cs not generated"
-            exit 1
-          fi
+          if [ ! -f "$TREE_CS" ]; then echo "Error: Tree.cs not generated"; exit 1; fi
+          if [ ! -f "$OVERLAY_CS" ]; then echo "Error: CanvasOverlay.cs not generated"; exit 1; fi
+          if [ ! -f "$MAPS_CS" ]; then echo "Error: Map.cs not generated"; exit 1; fi
+          if [ ! -f "$TAGS_CS" ]; then echo "Error: Tags.cs not generated"; exit 1; fi
+          if [ ! -f "$RES_CS" ]; then echo "Error: Res.cs not generated"; exit 1; fi
 
           # Basic content check
           grep "public class Tree" "$TREE_CS"
