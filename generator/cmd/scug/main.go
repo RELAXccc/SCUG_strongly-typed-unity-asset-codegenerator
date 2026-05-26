@@ -18,13 +18,17 @@ import (
 // SCUG (Super Cool Unity Generator) entry point.
 // This tool parses Unity prefabs and generates strongly-typed C# wrappers.
 func main() {
+	os.Exit(Run(os.Args))
+}
+
+func Run(args []string) int {
 	start := time.Now()
 
 	// Locate the Assets directory to establish project context.
 	assetsDir := utils.FindAssetsDir()
 	if assetsDir == "" {
 		fmt.Println("Error: Could not find Assets directory.")
-		os.Exit(1)
+		return 1
 	}
 
 	// Calculate project root based on Assets directory location.
@@ -63,7 +67,7 @@ func main() {
 	count := 0
 
 	// Handle Targeted Mode (triggered when specific files are passed as arguments).
-	files := os.Args[1:]
+	files := args[1:]
 	if len(files) > 0 {
 		fmt.Printf("Processing %d targeted prefabs...\n", len(files))
 
@@ -79,7 +83,7 @@ func main() {
 					fullPath := filepath.Join(projectRoot, rawPath)
 					if _, err := os.Stat(fullPath); os.IsNotExist(err) {
 						fmt.Printf("Error: File does not exist: %s\n", rawPath)
-						os.Exit(1)
+						return
 					}
 					generator.ProcessPrefabFile(fullPath, resourcesDir, outputDir, c, cfg.DisableCache)
 					mu.Lock()
@@ -162,4 +166,6 @@ func main() {
 		}
 		fmt.Printf("Done! Full scan processed %d prefabs in %v.\n", count, time.Since(start))
 	}
+
+	return 0
 }

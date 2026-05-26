@@ -39,6 +39,34 @@ func TestLoadConfig(t *testing.T) {
 	if cfg2.OutputDir != "CustomOut" {
 		t.Errorf("Expected CustomOut, got %s", cfg2.OutputDir)
 	}
+
+	// 3. Test validation fallbacks
+	invalidJSON := `{"workers": 0, "cache_file": "", "resources_dir": "", "output_dir": "", "scan_dirs": []}`
+	ioutil.WriteFile(configPath, []byte(invalidJSON), 0644)
+
+	cfg3 := LoadConfig(tmpDir)
+	if cfg3.Workers <= 0 {
+		t.Errorf("Expected workers fallback to NumCPU, got %d", cfg3.Workers)
+	}
+	if cfg3.CacheFile != "scug_cache.json" {
+		t.Errorf("Expected CacheFile fallback, got %s", cfg3.CacheFile)
+	}
+	if cfg3.ResourcesDir != "Assets/Resources" {
+		t.Errorf("Expected ResourcesDir fallback, got %s", cfg3.ResourcesDir)
+	}
+	if cfg3.OutputDir != "Assets/Scripts/v2/UX/generated" {
+		t.Errorf("Expected OutputDir fallback, got %s", cfg3.OutputDir)
+	}
+	if len(cfg3.ScanDirs) == 0 {
+		t.Errorf("Expected ScanDirs fallback, got 0 items")
+	}
+
+	// 4. Test malformed JSON (should still return defaults)
+	ioutil.WriteFile(configPath, []byte(`{invalid: json`), 0644)
+	cfg4 := LoadConfig(tmpDir)
+	if cfg4.CacheFile != "scug_cache.json" {
+		t.Errorf("Expected default CacheFile for malformed JSON, got %s", cfg4.CacheFile)
+	}
 }
 
 func TestGetAbsolutePath(t *testing.T) {
